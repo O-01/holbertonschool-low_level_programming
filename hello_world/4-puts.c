@@ -7,7 +7,7 @@
  */
 int main(void) /* main - puts things - what do you want, betty */
 {
-char momo[] = "Programming is like building a multilingual puzzle";
+char momo[] = "\"Programming is like building a multilingual puzzle";
 
 puts(momo);
 return (0);
