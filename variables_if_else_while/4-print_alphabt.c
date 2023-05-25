@@ -14,9 +14,12 @@ char alpha;
 
 alpha = 'a';
 
-while (alpha <= 'z' || (alpha != 'e' && alpha != 'q'))
+while (alpha <= 'z')
+{
+if (alpha != 'e' && alpha != 'q')
 {
 putchar(alpha);
+}
 alpha++;
 }
 
