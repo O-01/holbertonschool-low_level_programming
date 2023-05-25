@@ -14,7 +14,7 @@ char alpha;
 
 alpha = 'a';
 
-while (alpha <= 'z' && alpha != ('e' && 'q'))
+while (alpha <= 'z' && alpha != 'e' && alpha != 'q')
 {
 putchar(alpha);
 alpha++;
