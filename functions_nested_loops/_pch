@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter file to compile to test: "
+read t1_pp1000_s1
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c $t1_pp1000_s1 -o test
