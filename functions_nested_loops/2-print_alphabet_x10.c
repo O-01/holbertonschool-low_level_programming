@@ -14,15 +14,15 @@ void print_alphabet_x10(void)
 	char alpha;
 	int ppp;
 
-	alpha = 'a';
+	ppp = 1
 
-	for (ppp = 1; ppp <= 10; ppp++)
+	while (ppp <= 10)
 	{
-		while (alpha <= 'z')
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
 		_putchar(alpha);
-		alpha++;
-		_putchar('\n');
 		}
+		_putchar('\n');
+		ppp++;
 	}
 }
