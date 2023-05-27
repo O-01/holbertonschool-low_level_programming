@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	char alpha;
 	int ppp;
 
-	ppp = 1
+	ppp = 1;
 
 	while (ppp <= 10)
 	{
