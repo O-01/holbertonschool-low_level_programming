@@ -19,12 +19,11 @@ void print_alphabet_x10(void)
 
 	while (ppp <= 10)
 	{
-	while (alpha <= 'z')
-	{
+		while (alpha <= 'z')
+		{
 		_putchar(alpha);
 		alpha++;
-	}
-	_putchar('\n');
+		}
 	ppp++;
 	}
 }
