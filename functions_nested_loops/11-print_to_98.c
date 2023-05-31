@@ -13,27 +13,33 @@ void print_to_98(int n)
 {
 	int o;
 
-	for (o = n; o <= 98; o++)
+	if (n != 98)
 	{
-		if (o < 98)
+		for (o = n; o <= 98; o++)
 		{
-			printf("%d, ", o);
+			if (o < 98)
+			{
+				printf("%d, ", o);
+			}
+			else if (o == 98)
+			{
+				printf("%d\n", o);
+			}
 		}
-		else
+		for (o = n; o >= 98; o--)
 		{
-			printf("%d", o);
+			if (o > 98)
+			{
+				printf("%d, ", o);
+			}
+			else if (o == 98)
+			{
+				printf("%d\n", o);
+			}
 		}
 	}
-
-	for (o = n; o >= 98; o--)
+	else
 	{
-		if (o > 98)
-		{
-			printf("%d, ", o);
-		}
-		else
-		{
-			printf("%d", o);
-		}
+		printf("%d\n", n);
 	}
 }
