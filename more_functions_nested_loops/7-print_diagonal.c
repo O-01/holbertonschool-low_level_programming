@@ -12,17 +12,18 @@ void print_diagonal(int n)
 	int soz;
 	int siz;
 
-	soz = 1;
-	while (soz <= n)
+	if (n > 0)
 	{
-		siz = 1;
-		while (siz <= soz)
+		for (soz = 0; soz < n; soz++)
 		{
-			_putchar(' ');
-			(siz++);
+			for (siz = 0; siz < soz; siz++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
-		(soz++);
 	}
+	else
+		_putchar('\n');
 }
