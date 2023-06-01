@@ -25,5 +25,7 @@ int main(void)
 		if (f < 100)
 			printf(" ");
 	}
+
 	putchar('\n');
+	return (0);
 }
