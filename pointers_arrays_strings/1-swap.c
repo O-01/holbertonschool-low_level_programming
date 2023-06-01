@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap - changes referenced pointer value *n to 98
+ * swap_int - changes referenced pointer value *n to 98
  * @a: integer value 1
  * @b: integer value 2
  *
