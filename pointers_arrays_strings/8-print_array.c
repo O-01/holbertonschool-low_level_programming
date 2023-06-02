@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
+ * print_array - prints array a of n length
+ * @a: array pointer
+ * @n: length of array
  *
- *
- *
- *
- *
+ * Return: void
  */
 
 void print_array(int *a, int n)
