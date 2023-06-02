@@ -1,0 +1,30 @@
+#include "main.h"
+
+/**
+ * print_rev - prints string from pointer str, but backwards
+ * @s: pointer to string we are to print
+ *
+ * Return: void
+ */
+
+void print_rev(char *s)
+{
+	int a, b, v;
+	char g;
+
+	for (a = 0; s[a] != '\0'; a++)
+	{
+		for (b = 0; b < (a / 2); b++)
+		{
+			g = s[b];
+			s[b] = s[b - a - 1];
+			s[b - a - 1] = g;
+
+			for (v = 0; v < a; v++)
+				_putchar(*s);
+		}
+	}
+
+	_putchar('\n');
+
+}
