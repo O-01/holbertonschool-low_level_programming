@@ -32,5 +32,5 @@ int _atoi(char *s)
 
 	}
 
-	return (c *p);
+	return (c * p);
 }
