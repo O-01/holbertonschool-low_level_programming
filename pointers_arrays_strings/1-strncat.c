@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
- *
+ * _strncat - concatenate two strings to with src to length n
+ * @dest: string 1
+ * @src: string 2
+ * @n: number of bytes to which src restricted
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
