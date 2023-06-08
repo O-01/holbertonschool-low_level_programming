@@ -1,8 +1,0 @@
-#include <stdio.h>
-
-int main(void)
-{
-	printf("Hello C21!\\0What’s up?");
-
-	return (0);
-}
