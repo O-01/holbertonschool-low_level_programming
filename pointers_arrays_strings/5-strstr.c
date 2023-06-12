@@ -9,14 +9,29 @@
 
 char *_strstr(char *h, char *n)
 {
-	char *x = h;
+	int x = 0;
+	int y = 0;
+	int z = 0;
 
-	while (*x++)
-		while (*n++)
-			if (*x == *n)
-			{
-				x++;
-				return (x);
-			}
+	if (n[x] == '\0')
+		return (&h[z]);
+
+	for (x = 0; h[x] != '\0'; x++)
+	{
+		if (h[x] == n[y])
+		{
+			y++;
+			if (z == 0)
+				z = x;
+			if (n[y] == '\0')
+				return (&h[z]);
+		}
+		else
+		{
+			y = 0;
+			z = 0;
+		}
+	}
+
 	return (0);
 }
