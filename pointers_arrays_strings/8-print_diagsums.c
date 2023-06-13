@@ -2,22 +2,24 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * print_diagsums - prints sums of values of 2d array a of size s
+ * @a: object array
+ * @s: size of array
+ * Return: void
  */
 
 void print_diagsums(int *a, int s)
 {
-	int x, y;
+	int w;
+	int x = 0;
+	int y = 0;
 
-	for (x = 0; x < s; x++)
+	for (w = 0; w < s; w++)
 	{
-		for (y = 0; y < s; y++)
-		{
-			printf("%d, %d\n", ());
-			printf("%d, %d\n", ());
-		}
-		_putchar('\n');
+		x += a[(s + 1) * x];
+		y += a[(s - 1) * (x + 1)];
 	}
+
+	printf("%d, %d\n", x, y);
+
 }
