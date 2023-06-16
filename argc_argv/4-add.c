@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - adds argv args
@@ -12,27 +13,33 @@ int main(int argc, char *argv[])
 {
 	int x = 1;
 	int y = 0;
+	char *z;
 
-	y = atoi(argv[x]);
-
-	if ((argc - 1) == 0)
-		printf("0\n");
-
-	if (argc)
+	if (argc > 1)
 	{
-		for (; argv ; x++)
+		for (; x < argc; x++)
 		{
-			y += atoi(argv[x + 1]);
+			z = argv[x];
 
-			if (y > '9' || y < '0')
+			while (*z)
 			{
-				printf("Error\n");
-				return (1);
+				if (!isdigit(*z))
+				{
+					printf("Error\n");
+					return (1);
+				}
+
+				z++;
 			}
+
+			y += atoi(argv[x]);
 		}
 
 		printf("%d\n", y);
 	}
+
+	else
+		printf("0\n");
 
 	return (0);
 }
