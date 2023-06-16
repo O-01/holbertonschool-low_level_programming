@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		{
 			y += atoi(argv[x + 1]);
 
-			if ((argc - 1) == 0 || (y > 57 && y < 48))
+			if ((argc - 1) == 0 || y > '57' || y < '48')
 			{
 				printf("Error\n");
 				return (1);
