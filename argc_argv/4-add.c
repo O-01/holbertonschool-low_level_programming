@@ -12,13 +12,15 @@ int main(int argc, char *argv[])
 {
 	int x = 0;
 	int y = 0;
+	int z = 0;
 
 	if (argc)
 		for (; argv; x++)
 		{
 			y = atoi(argv[x]) + atoi(argv[x + 1]);
+			z = atoi(argv[x]);
 
-			if (argv[x] < '0' || argv[x] > '9')
+			if (z < '0' || z > '9')
 				printf("Error\n");
 			else
 				printf("%d\n", y);
