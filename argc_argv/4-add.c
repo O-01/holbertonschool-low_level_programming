@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 	{
 		for (; argv; x++)
 		{
-			y += 1;
+			y += atoi(arg[x + 1]);
 
-			if ((argc - 1) == 0 || y < '0' || y > '9')
+			if ((argc - 1) == 0 || y > 57 || y < 48)
 			{
 				printf("Error\n");
 				return (1);
