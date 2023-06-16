@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		for (; argv; x++)
 		{
-			y += atoi(arg[x + 1]);
+			y += atoi(argv[x + 1]);
 
 			if ((argc - 1) == 0 || y > 57 || y < 48)
 			{
