@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	if (x < 2 || x > 2)
 		printf("Error");
 	else
-		printf("%d\n", (argv[1] * argv[2]));
+		printf("%d\n", (*(argv + 1) * *(argv + 2)]));
 
 	return (0);
 }
