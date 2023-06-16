@@ -14,17 +14,24 @@ int main(int argc, char *argv[])
 	int y = 0;
 	int z = 0;
 
+	y = atoi(argv[x]) + atoi(argv[x + 1]);
+	z = atoi(argv[x]);
+
 	if (argc)
+	{
 		for (; argv; x++)
 		{
-			y = atoi(argv[x]) + atoi(argv[x + 1]);
-			z = atoi(argv[x]);
+			z += 1;
 
-			if (z < '0' || z > '9')
+			if ((argc - 1) == 0 || z < '0' || z > '9')
+			{
 				printf("Error\n");
-			else
-				printf("%d\n", y);
+				return (1);
+			}
 		}
+
+		printf("%d\n", z);
+	}
 
 	return (0);
 }
