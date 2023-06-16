@@ -15,13 +15,16 @@ int main(int argc, char *argv[])
 
 	y = atoi(argv[x]);
 
+	if ((argc - 1) == 0)
+		printf("0\n");
+
 	if (argc)
 	{
 		for (; argv ; x++)
 		{
 			y += atoi(argv[x + 1]);
 
-			if ((argc - 1) == 0 || y > '9' || y < '0')
+			if (y > '9' || y < '0')
 			{
 				printf("Error\n");
 				return (1);
