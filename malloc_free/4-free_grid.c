@@ -13,8 +13,9 @@ void free_grid(int **grid, int h)
 {
 	int y = h;
 
-	for (; y >= 0; y--)
-		free(grid[y]);
+	if (grid != NULL)
+		for (; y >= 0; y--)
+			free(grid[y]);
 
 	free(grid);
 }
