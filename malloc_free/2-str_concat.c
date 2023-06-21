@@ -35,11 +35,8 @@ char *str_concat(char *s1, char *s2)
 	for (; s1[x]; x++)
 		z[x] = s1[x];
 
-	for (; s2[y]; y++)
-	{
+	for (; s2[y]; y++, x++)
 		z[x] = s2[y];
-		x++;
-	}
 
 	z[x] = '\0';
 
