@@ -4,9 +4,9 @@
 
 /**
  * free_grid - frees allocated memory from alloc_grid function
- * @grid:
+ * @grid: grid created using alloc_grid
  * @h: height
- * Return:
+ * Return: void
  */
 
 void free_grid(int **grid, int h)
