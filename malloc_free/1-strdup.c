@@ -13,10 +13,12 @@ char *_strdup(char *s1)
 {
 	char *klon = 0;
 	unsigned int x = 0;
-	unsigned int y = strlen(s1) + 1;
+	unsigned int y = 0;
 
 	if (s1 == 0)
 		return (NULL);
+
+	y = strlen(s1) + 1;
 
 	klon = malloc(sizeof(char) * y);
 
