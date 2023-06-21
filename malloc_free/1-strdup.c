@@ -15,7 +15,7 @@ char *_strdup(char *s1)
 	unsigned int x = 0;
 	unsigned int y = strlen(s1) + 1;
 
-	if (s1 == NULL)
+	if (s1 == 0)
 		return (NULL);
 
 	klon = malloc(sizeof(char) * y);
