@@ -17,9 +17,9 @@ char *create_array(unsigned int sz, char c)
 	if (s1 == 0)
 		return (NULL);
 
-	malloc(sizeof(char) * s1);
+	malloc(sizeof(char) * sz);
 
-	for (; y[b] < sz; b++)
+	for (; y[x] < sz; x++)
 		y[0] = c;
 
 	return (y);
