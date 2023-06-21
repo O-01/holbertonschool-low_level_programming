@@ -23,7 +23,7 @@ char *_strdup(char *s1)
 	if (klon == 0)
 		return (NULL);
 
-	for (; s1[x]; x++)
+	for (; x < y; x++)
 		klon[x] = s1[x];
 
 	return (klon);
