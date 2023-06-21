@@ -20,14 +20,14 @@ int **alloc_grid(int w, int h)
 	if ((w * h) < 1 || mun == NULL)
 		return (NULL);
 
-	for (; x < w; x++)
+	for (; y < h; y++)
 	{
-		mun[x] = malloc(sizeof(int) * w);
+		mun[y] = malloc(sizeof(int) * w);
 
-		if (mun[x] == NULL)
+		if (mun[y] == NULL)
 		{
-			for (; x; x--)
-				free(mun[x]);
+			for (; y >= 0; y--)
+				free(mun[y]);
 
 			free(mun);
 
