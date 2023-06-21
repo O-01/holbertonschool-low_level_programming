@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _strdup - duplicates string s1 & returns pointer to the duplicate
@@ -12,7 +13,7 @@ char *_strdup(char *s1)
 {
 	char *klon = 0;
 	unsigned int x = 0;
-	unsigned int y = sizeof(s1);
+	unsigned int y = strlen(s1) + 1;
 
 	if (s1 == NULL)
 		return (NULL);
