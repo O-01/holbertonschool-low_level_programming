@@ -11,8 +11,7 @@
 
 void *_calloc(unsigned int nm, unsigned int sz)
 {
-	char *uu;
-	unsigned int x = 0;
+	void *uu;
 
 	if (nm == 0 || sz == 0)
 		return (NULL);
