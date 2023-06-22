@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - .
- * @b: allocated
+ * malloc_checked - allocates memory & checks that correct amount allocated
+ * @x: what should be allocated
  * Return: void pointer
  */
 
