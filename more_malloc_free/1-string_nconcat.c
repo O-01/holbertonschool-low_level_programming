@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * str_concat - concatenates two given strings s1 & s2
+ * str_nconcat - concatenates two given strings s1 & n bytes of s2
  * @s1: object string 1
  * @s2: object string 2
  * @n: number of bytes of s2 to concatenate
