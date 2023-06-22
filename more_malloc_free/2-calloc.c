@@ -12,6 +12,7 @@
 void *_calloc(unsigned int nm, unsigned int sz)
 {
 	void *uu;
+	unsigned int x = 0;
 
 	if (nm == 0 || sz == 0)
 		return (NULL);
@@ -20,6 +21,9 @@ void *_calloc(unsigned int nm, unsigned int sz)
 
 	if (uu == NULL)
 		return (NULL);
+
+	for (; nm[x]; x++)
+		nm[x] = 0;
 
 	return (uu);
 }
