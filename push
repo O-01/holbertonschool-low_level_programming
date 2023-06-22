@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .
-echo 'Enter commit title: '
-read commit_title
-git commit -m $commit_title
+echo 'Commit: '
+read commitment
+git commit -m $commitment
 git push
