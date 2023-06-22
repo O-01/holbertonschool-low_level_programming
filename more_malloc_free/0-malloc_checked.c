@@ -10,12 +10,12 @@
 
 void *malloc_checked(unsigned int x)
 {
-	void *oo;
+	void *y;
 
-	oo = (void *) malloc(x);
+	y = (void *) malloc(x);
 
-	if (oo == NULL)
+	if (y == NULL)
 		exit(98);
 
-	return (oo);
+	return (y);
 }
