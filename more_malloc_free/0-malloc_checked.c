@@ -8,11 +8,11 @@
  * Return: void pointer
  */
 
-void *malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int x)
 {
 	void *oo = 0;
 
-	oo = malloc(sizeof(unsigned int) * b);
+	oo = malloc(x);
 
 	if (oo == NULL)
 		exit(98);
