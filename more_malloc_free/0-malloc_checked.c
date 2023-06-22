@@ -4,15 +4,15 @@
 
 /**
  * malloc_checked - allocates memory & checks that correct amount allocated
- * @x: what should be allocated
+ * @b: what should be allocated
  * Return: void pointer
  */
 
-void *malloc_checked(unsigned int x)
+void *malloc_checked(unsigned int b)
 {
 	void *y;
 
-	y = (void *) malloc(x);
+	y = malloc(b);
 
 	if (y == NULL)
 		exit(98);
