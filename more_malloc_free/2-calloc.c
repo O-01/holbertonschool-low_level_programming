@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _calloc - allocates memory for array of nm elements of sz bytes each
@@ -12,7 +13,6 @@
 void *_calloc(unsigned int nm, unsigned int sz)
 {
 	void *uu;
-	unsigned int x = 0;
 
 	if (nm == 0 || sz == 0)
 		return (NULL);
