@@ -1,3 +1,6 @@
+#ifndef dog_h
+#define dog_h
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,9 +12,6 @@
  *
  * Description: pretty much a struct to hold the attributes of a dog
  */
-
-#ifndef dog_h
-#define dog_h
 
 struct dog
 {
