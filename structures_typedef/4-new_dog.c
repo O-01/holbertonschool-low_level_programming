@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+int _strlen(char *s1);
+
 /**
  * new_dog - creates a new dog of dog_t format
  * @name: name of the new dog
@@ -20,8 +22,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *own = 0;
 
 	dawg = malloc(sizeof(dog_t));
-	nam = malloc(sizeof(char) * (sizeof(name)));
-	own = malloc(sizeof(char) * (sizeof(owner)));
+	nam = malloc(sizeof(char) * (_strlen(name) + 1));
+	own = malloc(sizeof(char) * (_strlen(owner) + 1));
 
 	if (dawg == NULL || nam == NULL || own == NULL)
 	{
@@ -42,4 +44,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dawg->owner = own;
 
 	return (dawg);
+}
+
+int _strlen(char *s1)
+{
+	unsigned int x = 0;
+
+	while (s1[x])
+		x++;
+
+	return (x);
 }
