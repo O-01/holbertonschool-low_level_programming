@@ -18,12 +18,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *dawg;
 	unsigned int x = 0;
 	unsigned int y = 0;
+	unsigned int z = 0;
 	char *nam = 0;
 	char *own = 0;
 
+	y = _strlen(name) + 1;
+	z = _strlen(owner) + 1;
+
 	dawg = malloc(sizeof(dog_t));
-	nam = malloc(sizeof(char) * (_strlen(name) + 1));
-	own = malloc(sizeof(char) * (_strlen(owner) + 1));
+	nam = malloc(sizeof(char) * y);
+	own = malloc(sizeof(char) * z);
 
 	if (dawg == NULL || nam == NULL || own == NULL)
 	{
@@ -33,11 +37,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (; name[x]; x++)
+	for (; x < y; x++)
 		nam[x] = name[x];
 
-	for (; owner[y]; y++)
-		own[y] = owner[y];
+	for (x = 0; x < z; x++)
+		own[x] = owner[x];
 
 	dawg->name = nam;
 	dawg->age = age;
@@ -45,6 +49,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	return (dawg);
 }
+
+/**
+ * _strlen - calculates length of input string
+ * @s1: object string
+ * Return: length
+ */
 
 int _strlen(char *s1)
 {
