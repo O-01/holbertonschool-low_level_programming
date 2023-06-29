@@ -12,18 +12,17 @@
 
 int main(int argc, char **argv)
 {
-	char *sign = 0;
+	char *sign = argv[2];
 	int x, y, z = 0;
-
-	sign = argv[2];
-	x = atoi(argv[1]);
-	y = atoi(argv[3]);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+
+	x = atoi(argv[1]);
+	y = atoi(argv[3]);
 
 	if (get_op_func(sign) == NULL)
 	{
