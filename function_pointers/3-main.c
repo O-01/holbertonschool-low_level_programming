@@ -13,7 +13,6 @@
 int main(int argc, char **argv)
 {
 	char *sign = argv[2];
-	int x, y, z = 0;
 
 	if (argc != 4)
 	{
@@ -21,24 +20,19 @@ int main(int argc, char **argv)
 		exit(98);
 	}
 
-	x = atoi(argv[1]);
-	y = atoi(argv[3]);
-
 	if (get_op_func(sign) == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	if ((*sign == '/' || *sign == '%') && y == 0)
+	if ((*sign == '/' || *sign == '%') && atoi(argv[3]) == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 
-	z = get_op_func(sign)(x, y);
-
-	printf("%d\n", z);
+	printf("%d\n", get_op_func(sign)(atoi(argv[1]), atoi(argv[3])));
 
 	return (0);
 }
