@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 		exit(98);
 	}
 
-	if (get_op_func(sign) == NULL)
+	if (get_op_func(sign) == NULL || sign[1])
 	{
 		printf("Error\n");
 		exit(99);
