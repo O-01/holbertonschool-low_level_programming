@@ -18,7 +18,6 @@ int main(int argc, char **argv)
 	sign = argv[2];
 	x = atoi(argv[1]);
 	y = atoi(argv[3]);
-	z = get_op_func(sign)(x, y);
 
 	if (argc != 4)
 	{
@@ -37,6 +36,8 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(100);
 	}
+
+	z = get_op_func(sign)(x, y);
 
 	printf("%d\n", z);
 
