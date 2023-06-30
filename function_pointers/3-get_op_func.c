@@ -4,10 +4,9 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ * get_op_func - supplies arithmetic func if input matches ops variant
+ * @s: input 'sign' to be checked against variants in ops
+ * Return: function corr. to sign, if found - NULL otherwise
  */
 
 int (*get_op_func(char *s))(int, int)

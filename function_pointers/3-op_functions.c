@@ -19,7 +19,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_add - addition operation
+ * op_sub - subtraction operation
  * @a: input 1
  * @b: input 2
  * Return: sum
@@ -31,7 +31,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_add - addition operation
+ * op_mul - multiplication operation
  * @a: input 1
  * @b: input 2
  * Return: sum
@@ -43,7 +43,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - addition operation
+ * op_div - division operation
  * @a: input 1
  * @b: input 2
  * Return: sum
@@ -55,7 +55,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - addition operation
+ * op_mod - modulo/int. remainder operation
  * @a: input 1
  * @b: input 2
  * Return: sum
