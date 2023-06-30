@@ -15,22 +15,18 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int x = 0;
 	int ro = 0;
 
-	if (separator != NULL)
+	va_start(set, n);
+
+	for (; x < n; x++)
 	{
-		va_start(set, n);
+		ro = va_arg(set, unsigned int);
+		printf("%d", ro);
 
-		for (; x < n; x++)
-		{
-			ro = va_arg(set, unsigned int);
-
-			if (x != n - 1)
-				printf("%d%s", ro, separator);
-			else
-				printf("%d", ro);
-		}
-
-		va_end(set);
-
-		printf("\n");
+		if (separator != NULL && x != n - 1)
+			printf("%d%s", ro, separator);
 	}
+
+	va_end(set);
+
+	printf("\n");
 }
