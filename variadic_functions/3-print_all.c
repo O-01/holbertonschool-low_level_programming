@@ -4,16 +4,16 @@
 #include <stdarg.h>
 
 /**
- *
- *
- *
+ * print_all - prints inputs of various data types
+ * @frmt: list of data types of input arguments
+ * Return: void
  */
 
 void print_all(const char * const frmt, ...)
 {
 	va_list surf;
 	char *dude;
-	int x, y = 0;
+	int x = 0;
 
 	va_start(surf, frmt);
 	while (frmt && frmt[x])
@@ -22,32 +22,26 @@ void print_all(const char * const frmt, ...)
 		{
 		case 'c':
 			printf("%c", (char) va_arg(surf, int));
-			y++;
 			break;
 		case 'i':
 			printf("%d", va_arg(surf, int));
-			y++;
 			break;
 		case 'f':
 			printf("%f", va_arg(surf, double));
-			y++;
 			break;
 		case 's':
 			dude = va_arg(surf, char *);
 			if (!dude)
 			{
 				printf("(nil)");
-				y++;
 				break;
 			}
 			printf("%s", dude);
-			y++;
 			break;
 		}
-		if (y > 0 && frmt[x + 1])
+		if (frmt[x] && frmt[x + 1])
 			printf(", ");
 		x++;
-		y = 0;
 	}
 	printf("\n");
 	va_end(surf);
