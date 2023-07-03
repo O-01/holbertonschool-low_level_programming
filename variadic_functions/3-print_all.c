@@ -12,7 +12,7 @@
 void print_all(const char * const frmt, ...)
 {
 	va_list surf;
-	char *dude;
+	char *dude, *delim = ", ";
 	int x = 0;
 
 	va_start(surf, frmt);
@@ -21,26 +21,23 @@ void print_all(const char * const frmt, ...)
 		switch (frmt[x])
 		{
 		case 'c':
-			printf("%c", (char) va_arg(surf, int));
+			printf("%c%s", (char) va_arg(surf, int), delim);
 			break;
 		case 'i':
-			printf("%d", va_arg(surf, int));
+			printf("%d%s", va_arg(surf, int), delim);
 			break;
 		case 'f':
-			printf("%f", va_arg(surf, double));
+			printf("%f%s", va_arg(surf, double), delim);
 			break;
 		case 's':
 			dude = va_arg(surf, char *);
 			if (!dude)
-			{
-				printf("(nil)");
-				break;
-			}
-			printf("%s", dude);
+				dude = "(nil)";
+			printf("%s%s", dude, delim);
 			break;
 		}
-		if (frmt[x] != ('c' || 'i' || 'f' || 's') && frmt[x + 1])
-			printf(", ");
+		if (!frmt[x + 2])
+			delim = "";
 		x++;
 	}
 	printf("\n");
