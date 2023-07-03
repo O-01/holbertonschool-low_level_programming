@@ -43,9 +43,10 @@ void print_all(const char * const frmt, ...)
 			y++;
 			break;
 		}
-		if (y > 0 && !frmt[x + 1])
+		if (y > 0 && frmt[x + 1])
 			printf(", ");
 		x++;
+		y = 0;
 	}
 	printf("\n");
 	va_end(surf);
