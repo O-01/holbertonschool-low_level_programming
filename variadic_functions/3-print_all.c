@@ -37,6 +37,7 @@ void print_all(const char * const frmt, ...)
 			if (!dude)
 			{
 				printf("(nil)");
+				y++;
 				break;
 			}
 			printf("%s", dude);
