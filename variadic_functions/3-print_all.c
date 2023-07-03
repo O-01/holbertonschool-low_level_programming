@@ -39,7 +39,7 @@ void print_all(const char * const frmt, ...)
 			printf("%s", dude);
 			break;
 		}
-		if (frmt[x] && frmt[x + 1])
+		if (frmt[x] != ('c' || 'i' || 'f' || 's') && frmt[x + 1])
 			printf(", ");
 		x++;
 	}
