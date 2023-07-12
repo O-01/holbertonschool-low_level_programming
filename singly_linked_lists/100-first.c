@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- *
- *
- *
+ * hare_tortoise - print given string before execution of main
+ * Return: void
  */
 
 void __attribute__ ((constructor)) hare_tortoise(void)
