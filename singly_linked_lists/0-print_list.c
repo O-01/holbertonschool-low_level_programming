@@ -10,8 +10,9 @@ size_t print_list(const list_t *h)
 {
 	int x = 0;
 	char *s1 = NULL;
+
 	if (h == NULL)
-		return (-1);
+		return (0);
 	for (; h; x++)
 	{
 		s1 = h->str;
