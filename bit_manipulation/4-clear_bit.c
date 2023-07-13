@@ -9,7 +9,7 @@
 
 int clear_bit(unsigned long int *input, unsigned int index)
 {
-	if (index > 63)
+	if (index > 15)
 		return (-1);
 
 	if (*input)
