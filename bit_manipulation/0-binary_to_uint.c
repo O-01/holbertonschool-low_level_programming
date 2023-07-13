@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * binary_to_uint - converts binary input string to decimal
+ * @input: binary input
+ * Return: decimal equivalent, 0 if input is NULL or input contains non-digits
  */
 
 unsigned int binary_to_uint(const char *input)
@@ -11,6 +11,9 @@ unsigned int binary_to_uint(const char *input)
 	unsigned int booger = 0;
 	int x = 0, y = 0;
 	unsigned int taker = 0;
+
+	if (input == NULL)
+		return (0);
 
 	for (; input[x]; x++)
 		;
