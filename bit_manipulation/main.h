@@ -8,6 +8,9 @@
 #include <limits.h>
 #include <ctype.h>
 #include <math.h>
+#include <unistd.h>
+
+int _putchar(char c);
 
 int _pow(int x, int y);
 unsigned int binary_to_uint(const char *b);
