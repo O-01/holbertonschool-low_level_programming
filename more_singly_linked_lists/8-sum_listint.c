@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- *
- *
- *
+ * sum_listint - calculate sum of listint_t nodes
+ * @head: head of input list
+ * Return: sum of nodes
  */
 
 int sum_listint(listint_t *head)
