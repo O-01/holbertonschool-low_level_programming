@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node_end - create node & add it at the end of our linked list
+ * add_nodeint_end - create node & add it at the end of our linked list
  * @head: pointer to head of linked list
  * @n: name of the new node
  * Return: address of new node, NULL if mem alloc fails
