@@ -19,28 +19,24 @@ int main(int ac, char *av[])
 	myS = fopen("closeError", "w+");
 
 	if (ac != 3)
-	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+	{dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		fclose(myS), system("rm closeError");
 		exit(97);
 	}
 
 	cp_wave = cp_cool(av[1], av[2], myS);
 	if (cp_wave == 198)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
+	{dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
 		fclose(myS), system("rm closeError");
 		exit(98);
 	}
 	if (cp_wave == 199)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+	{dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
 		fclose(myS), system("rm closeError");
 		exit(99);
 	}
 	if (cp_wave == 200)
-	{
-		puller = fgetc(myS);
+	{puller = fgetc(myS);
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", puller);
 		fclose(myS), system("rm closeError");
 		exit(100);
@@ -81,13 +77,11 @@ int cp_cool(const char *file_in, const char *file_out, FILE *myS)
 	}
 	cl_in = close(fd_in), cl_out = close(fd_out);
 	if (cl_in == -1)
-	{
-		fputc(fd_in, myS);
+	{fputc(fd_in, myS);
 		return (200);
 	}
 	if (cl_out == -1)
-	{
-		fputc(fd_out, myS);
+	{fputc(fd_out, myS);
 		return (200);
 	}
 	return (144);
