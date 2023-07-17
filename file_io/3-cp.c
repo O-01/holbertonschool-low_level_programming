@@ -16,6 +16,8 @@ int main(int ac, char *av[])
 	int cp_wave = 0, puller = 0;
 	FILE *myS;
 
+	myS = fopen("closeError", "w+");
+
 	if (ac != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
@@ -23,7 +25,6 @@ int main(int ac, char *av[])
 	}
 
 	cp_wave = cp_cool(av[1], av[2], myS);
-
 	if (cp_wave == 198)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
@@ -36,7 +37,6 @@ int main(int ac, char *av[])
 	}
 	if (cp_wave == 200)
 	{
-		myS = fopen("closeError", "w+");
 		puller = fgetc(myS);
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", puller);
 		fclose(myS), system("rm closeError");
