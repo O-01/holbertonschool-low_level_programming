@@ -21,6 +21,7 @@ int main(int ac, char *av[])
 	if (ac != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		fclose(myS), system("rm closeError");
 		exit(97);
 	}
 
@@ -28,11 +29,13 @@ int main(int ac, char *av[])
 	if (cp_wave == 198)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
+		fclose(myS), system("rm closeError");
 		exit(98);
 	}
 	if (cp_wave == 199)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+		fclose(myS), system("rm closeError");
 		exit(99);
 	}
 	if (cp_wave == 200)
@@ -43,6 +46,7 @@ int main(int ac, char *av[])
 		exit(100);
 	}
 
+	fclose(myS), system("rm closeError");
 	return (0);
 }
 
