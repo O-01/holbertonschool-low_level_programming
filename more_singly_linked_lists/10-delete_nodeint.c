@@ -33,6 +33,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 				continue;
 			}
 			tmp = tmp->next;
+			if (idx < index && tmp->next == NULL)
+				return (-1);
 		}
 
 	return (1);
