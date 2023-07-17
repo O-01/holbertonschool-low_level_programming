@@ -8,10 +8,21 @@
 
 int sum_listint(listint_t *head)
 {
-	listint_t *sum;
+	listint_t *temp;
 	unsigned int plus = 0;
 
-	sum = head;
+	if (head == NULL)
+		return (0);
 
-	for(; sum; plus++)
-		sum =.
+	temp = head;
+
+	for(; temp->next;)
+	{
+		plus += temp->n;
+		temp = temp->next;
+	}
+
+	plus += temp->n;
+
+	return (plus);
+}
