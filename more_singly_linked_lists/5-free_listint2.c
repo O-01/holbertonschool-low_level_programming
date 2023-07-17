@@ -10,6 +10,11 @@ void free_listint2(listint_t **head)
 {
 	listint_t *head1, *pos;
 
+	if (*head == NULL)
+	{free(head);
+		return;
+	}
+
 	head1 = *head;
 	for (; head1;)
 	{
