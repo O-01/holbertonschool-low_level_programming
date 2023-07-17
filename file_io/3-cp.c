@@ -3,18 +3,18 @@
 int cp_cool(const char *file_in, const char *file_out, FILE *myS);
 
 /**
+ * main - calls cp_cool function to copy in file to out file, user specified
+ * @ac: count of arguments supplied (argc)
+ * @av: vector of supplied arguments (argv)
+ * Return: 0 upon success
  *
- *
- *
- *
+ * EXITS (97: incorrect argc, 98: FI error, 99: FO error, 100: close failure)
  */
 
 int main(int ac, char *av[])
 {
 	int cp_wave = 0, puller = 0;
 	FILE *myS;
-
-        myS = fopen("mySdummy", "w+");
 
 	if (ac != 3)
 	{
@@ -36,9 +36,10 @@ int main(int ac, char *av[])
 	}
 	if (cp_wave == 200)
 	{
+		myS = fopen("closeError", "w+");
 		puller = fgetc(myS);
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", puller);
-		fclose(myS);
+		fclose(myS), system("rm closeError");
 		exit(100);
 	}
 
@@ -46,10 +47,11 @@ int main(int ac, char *av[])
 }
 
 /**
- *
- *
- *
- *
+ * cp_cool - copies input file to output file
+ * @file_in: input file
+ * @file_out: output file
+ * @myS: stream used to transmit respective fd close upon failure
+ * Return: 144 upon success
  */
 
 int cp_cool(const char *file_in, const char *file_out, FILE *myS)
