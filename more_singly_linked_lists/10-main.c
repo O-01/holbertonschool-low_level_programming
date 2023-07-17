@@ -65,8 +65,8 @@ int main(void)
 	listint_t *head;
 	int n;
 
-	head = _create_list(1, 9);
-	n = delete_nodeint_at_index(&head, 10);
+	head = _create_list(2, -12, 6);
+	n = delete_nodeint_at_index(&head, 1);
 	printf("-> %d\n", n);
 	print_listint(head);
 	_free_listint(head);
