@@ -2,7 +2,7 @@
 
 /**
  * insert_dnodeint_at_index - insert new node at specified index
- * @head: head of dlistint_t linked list
+ * @hed: head of dlistint_t linked list
  * @idx: position/index in list where new node is to be inserted
  * @n: specified contents of new node
  * Return: address of new node, NULL upon fail invalid index
@@ -32,7 +32,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **hed, unsigned int idx, int n)
 		return (add);
 	}
 
-	for (; id_x < idx - 1; id_x++)
+	for (; id_x != idx; id_x++)
 	{
 		if (id_x < idx && tmp->next == NULL)
 			return (NULL);
