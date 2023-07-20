@@ -35,7 +35,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **hed, unsigned int idx, int n)
 	for (; id_x < idx - 1; id_x++)
 	{
 		if (tmp->n < 0)
-			idx++;
+			id_x++;
 		if (id_x < idx && tmp->next == NULL)
 			return (NULL);
 		tmp = tmp->next;
