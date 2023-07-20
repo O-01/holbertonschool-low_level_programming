@@ -32,7 +32,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
 		return (add);
 	}
 
-	for (; id_x != idx - 1; id_x++)
+	for (; id_x < idx; id_x++)
 	{
 		if (id_x < idx && tmp->next == NULL)
 			return (NULL);
