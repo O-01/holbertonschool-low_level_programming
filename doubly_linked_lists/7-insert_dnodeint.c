@@ -8,7 +8,7 @@
  * Return: address of new node, NULL upon fail invalid index
  */
 
-dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **hed, unsigned int idx, int n)
 {
 	dlistint_t *tmp, *add;
 	unsigned int id_x = 0;
@@ -18,22 +18,24 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
 	if (add == NULL)
 		return (NULL);
 
-	tmp = *head;
+	tmp = *hed;
 
 	add->n = n;
 
 	if (idx == 0)
 	{
-		add->next = *head;
+		add->next = *hed;
 		add->prev = NULL;
-		if (*head != NULL)
-			(*head)->prev = add;
-		*head = add;
+		if (*hed != NULL)
+			(*hed)->prev = add;
+		*hed = add;
 		return (add);
 	}
 
-	for (; id_x < idx; id_x++)
+	for (; id_x < idx - 1; id_x++)
 	{
+		if (tmp->n < 0)
+			idx++;
 		if (id_x < idx && tmp->next == NULL)
 			return (NULL);
 		tmp = tmp->next;
