@@ -17,6 +17,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (add == NULL || key == NULL || ht == NULL)
 		return (0);
+	if (value == NULL)
+		value = "";
 
 	for (; key[x]; x++)
 		;
@@ -42,11 +44,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 				free(add->key);
 				free(add->value);
 				free(add);
-				break;
+				goto ret;
 			}
 		}
 		add->next = head;
 		ht->array[idx] = add;
 	}
+ret:
 	return (1);
 }
