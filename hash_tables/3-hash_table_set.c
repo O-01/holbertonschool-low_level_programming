@@ -10,7 +10,7 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	hash_node_t *add = NULL, *list_head;
+	hash_node_t *add = NULL, *head;
 	unsigned long int idx = 0, x = 0;
 
 	add = malloc(sizeof(hash_node_t));
@@ -28,15 +28,25 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	add->next = NULL;
 
 	idx = (hash_djb2((const unsigned char *)key)) % ht->size;
-
 	if (ht->array[idx] == NULL)
 		ht->array[idx] = add;
 	else
 	{
-		list_head = ht->array[idx];
-		add->next = list_head;
+		head = ht->array[idx];
+		for(; head; head = head->next)
+		{
+			if (strcmp(key, head->key) == 0)
+			{
+				free(head->value);
+				head->value = strdup(value);
+				free(add->key);
+				free(add->value);
+				free(add);
+				break;
+			}
+		}
+		add->next = head;
 		ht->array[idx] = add;
 	}
-
 	return (1);
 }
