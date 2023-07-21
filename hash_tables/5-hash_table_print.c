@@ -1,33 +1,29 @@
 #include "hash_tables.h"
 
 /**
- *
- *
- *
+ * hash_table_print - prints contents of hash table
+ * @ht: object hash table
+ * Return: void
  */
 
 void hash_table_print(const hash_table_t *ht)
 {
 	hash_node_t *ids = NULL;
-/*	unsigned char *key = 0;*/
 	char *delim = ", ";
-	unsigned long int x = 0;
-/*	unsigned long int idx = 0;*/
-
-/*	idx = hash_djb2(key) % ht->size;*/
+	unsigned long int x = 0, flag = 0;
 
 	if (ht == NULL)
 		return;
 
 	printf("{");
 
-	for (; x < ht->size; x++)
-		if (ht->array[x] != NULL)
+	for (; x != ht->size; x++)
+		for (ids = ht->array[x]; ids; ids = ids->next)
 		{
-			ids = ht->array[x];
-			if (ids->next == NULL)
-				delim = "";
-			printf("'%s': '%s'%s", ids->key, ids->value, delim);
+			if (flag == 1)
+				printf("%s", delim);
+			printf("'%s': '%s'", ids->key, ids->value);
+			flag = 1;
 		}
 
 	printf("}\n");
