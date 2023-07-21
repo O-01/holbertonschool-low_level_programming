@@ -10,7 +10,7 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	hash_node_t *add = NULL, *head;
+	hash_node_t *add = NULL, *head = NULL, *tmp = NULL;
 	unsigned long int idx = 0, x = 0;
 
 	add = malloc(sizeof(hash_node_t));
@@ -35,12 +35,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	else
 	{
 		head = ht->array[idx];
-		for (; head; head = head->next)
+		for (tmp = head; tmp; tmp = tmp->next)
 		{
-			if (strcmp(key, head->key) == 0)
+			if (strcmp(key, tmp->key) == 0)
 			{
-				free(head->value);
-				head->value = strdup(value);
+				free(tmp->value);
+				tmp->value = strdup(value);
 				free(add->key);
 				free(add->value);
 				free(add);
