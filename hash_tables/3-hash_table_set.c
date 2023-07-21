@@ -14,7 +14,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int idx = 0, x = 0;
 
 	add = malloc(sizeof(hash_node_t));
-
 	if (add == NULL || key == NULL || ht == NULL)
 		return (0);
 	if (value == NULL)
@@ -47,8 +46,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 				return (1);
 			}
 		}
-		add->next = head;
-		ht->array[idx] = add;
+		add->next = head, ht->array[idx] = add;
 	}
 	return (1);
 }
