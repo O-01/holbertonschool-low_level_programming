@@ -18,7 +18,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (add == NULL || key == NULL || ht == NULL)
 		return (0);
 
-	for(; key[x]; x++)
+	for (; key[x]; x++)
 		;
 	if (x < 1)
 		return (0);
