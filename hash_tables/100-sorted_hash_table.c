@@ -46,62 +46,40 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 
 	if (ht == NULL || strlen(key) == 0)
 		return (0);
-
 	if (value == NULL)
 		value = "";
-
 	idx = (hash_djb2((const unsigned char *)key)) % ht->size;
-
 	for (tmp = ht->shead; tmp; tmp = tmp->next)
-	{
 		if (strcmp(key, tmp->key) == 0)
-		{
-			free(tmp->value);
-			tmp->value = strdup(value);
+		{free(tmp->value), tmp->value = strdup(value);
 			return (1);
 		}
-	}
-
 	add = malloc(sizeof(shash_node_t));
 	if (add == NULL)
 		return (0);
-
-	add->key = strdup(key);
-	add->value = strdup(value);
-	add->next = ht->array[idx];
-	ht->array[idx] = add;
-
+	add->key = strdup(key), add->value = strdup(value);
+	add->next = ht->array[idx], ht->array[idx] = add;
 	if (!ht->shead)
-	{
-		add->sprev = NULL;
-		add->snext = NULL;
-		ht->shead = add;
-		ht->stail = add;
+	{add->sprev = NULL, add->snext = NULL;
+		ht->shead = add, ht->stail = add;
 	}
-
 	else if (strcmp(key, ht->shead->key) < 0)
-	{
-		add->sprev = NULL;
-		add->snext = ht->shead;
-		ht->shead->sprev = add;
-		ht->shead = add;
+	{add->sprev = NULL, add->snext = ht->shead;
+		ht->shead->sprev = add, ht->shead = add;
 	}
-
 	else
 	{
 		for (tmp = ht->shead;
 		     tmp->snext && strcmp(key, tmp->snext->key) > 0;
 		     tmp = tmp->snext)
 			;
-		add->sprev = tmp;
-		add->snext = tmp->snext;
+		add->sprev = tmp, add->snext = tmp->snext;
 		if (!tmp->snext)
 			ht->stail = add;
 		else
 			tmp->snext->sprev = add;
 		tmp->snext = add;
 	}
-
 	return (1);
 }
 
