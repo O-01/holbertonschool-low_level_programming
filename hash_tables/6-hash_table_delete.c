@@ -1,9 +1,9 @@
 #include "hash_tables.h"
 
 /**
- *
- *
- *
+ * hash_table_delete - deletes specified hash table
+ * @ht: object hash table
+ * Return: void
  */
 
 void hash_table_delete(hash_table_t *ht)
