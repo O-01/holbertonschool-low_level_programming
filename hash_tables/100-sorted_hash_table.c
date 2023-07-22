@@ -1,9 +1,9 @@
 #include "hash_tables.h"
 
 /**
- *
- *
- *
+ * shash_table_create - creates sorted hash table of given size
+ * @size: desired table size
+ * Return: new table upon success, NULL upon malloc fail or no size given
  */
 
 shash_table_t *shash_table_create(unsigned long int size)
@@ -32,11 +32,11 @@ shash_table_t *shash_table_create(unsigned long int size)
 }
 
 /**
- *
- *
- *
- *
- *
+ * shash_table_set - adds an element to sorted hash table
+ * @ht: object sorted hash table
+ * @key: key of node to be added
+ * @value: value of node to be added
+ * Return: 1 upon success, 0 upon failure
  */
 
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
@@ -79,13 +79,13 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		ht->stail = add;
 	}
 
-        else if (strcmp(key, ht->shead->key) < 0)
-        {
-                add->sprev = NULL;
-                add->snext = ht->shead;
-                ht->shead->sprev = add;
-                ht->shead = add;
-        }
+	else if (strcmp(key, ht->shead->key) < 0)
+	{
+		add->sprev = NULL;
+		add->snext = ht->shead;
+		ht->shead->sprev = add;
+		ht->shead = add;
+	}
 
 	else
 	{
@@ -106,10 +106,10 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- *
- *
- *
- *
+ * shash_table_get - grabs value at key
+ * @ht: object sorted hash table
+ * @key: key to be searched
+ * Return: value at key
  */
 
 char *shash_table_get(const shash_table_t *ht, const char *key)
@@ -133,9 +133,9 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 }
 
 /**
- *
- *
- *
+ * shash_table_print - prints contents of sorted hash table
+ * @ht: object sorted hash table
+ * Return: void
  */
 
 void shash_table_print(const shash_table_t *ht)
@@ -160,36 +160,36 @@ void shash_table_print(const shash_table_t *ht)
 }
 
 /**
- *
- *
- *
+ * shash_table_print_rev - prints contents of sorted hash table in reverse
+ * @ht: object sorted hash table
+ * Return: void
  */
 
 void shash_table_print_rev(const shash_table_t *ht)
 {
 	shash_node_t *ids = NULL;
-        unsigned long int flag = 0;
+	unsigned long int flag = 0;
 
-        if (!ht)
-                return;
+	if (!ht)
+		return;
 
-        printf("{");
+	printf("{");
 
-        for (ids = ht->stail; ids; ids = ids->sprev)
-        {
-                if (flag == 1)
-                        printf(", ");
-                printf("'%s': '%s'", ids->key, ids->value);
-                flag = 1;
-        }
+	for (ids = ht->stail; ids; ids = ids->sprev)
+	{
+		if (flag == 1)
+			printf(", ");
+		printf("'%s': '%s'", ids->key, ids->value);
+		flag = 1;
+	}
 
-        printf("}\n");
+	printf("}\n");
 }
 
 /**
- *
- *
- *
+ * shash_table_delete - deletes specified sorted hash table
+ * @ht: object sorted hash table
+ * Return: void
  */
 
 void shash_table_delete(shash_table_t *ht)
