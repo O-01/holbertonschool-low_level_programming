@@ -71,9 +71,27 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	add->next = ht->array[idx];
 	ht->array[idx] = add;
 
-	if (ht->shead)
+	if (!ht->shead)
 	{
-		for (tmp = ht->shead; tmp->snext; tmp = tmp->snext)
+		add->sprev = NULL;
+		add->snext = NULL;
+		ht->shead = add;
+		ht->stail = add;
+	}
+
+        else if (strcmp(key, ht->shead->key) < 0)
+        {
+                add->sprev = NULL;
+                add->snext = ht->shead;
+                ht->shead->sprev = add;
+                ht->shead = add;
+        }
+
+	else
+	{
+		for (tmp = ht->shead;
+		     tmp->snext && strcmp(key, tmp->snext->key) > 0;
+		     tmp = tmp->snext)
 			;
 		add->sprev = tmp;
 		add->snext = tmp->snext;
@@ -82,14 +100,6 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		else
 			tmp->snext->sprev = add;
 		tmp->snext = add;
-	}
-
-	else
-	{
-		add->sprev = NULL;
-		add->snext = NULL;
-		ht->shead = add;
-		ht->stail = add;
 	}
 
 	return (1);
