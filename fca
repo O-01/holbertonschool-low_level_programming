@@ -1,8 +1,0 @@
-#!/bin/bash
-echo 'Filename: '
-read -r file_name
-touch "$file_name" && echo -e "#!/bin/bash" > "$file_name"
-echo 'Desired command: '
-read -r des_com
-echo -e "$des_com" >> "$file_name"
-chmod u+x "$file_name"
