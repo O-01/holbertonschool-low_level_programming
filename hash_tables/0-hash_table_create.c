@@ -5,21 +5,18 @@
  * @size: desired hash table size
  * Return: new table upon success, NULL upon malloc failure or no size given
  */
-
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	hash_table_t *teibl = NULL;
+	hash_table_t *table = NULL;
 
-	teibl = malloc(sizeof(hash_table_t));
-
-	if (teibl == NULL || size == 0)
+	if (!size)
 		return (NULL);
-
-	teibl->size = size;
-	teibl->array = malloc(sizeof(hash_node_t *) * size);
-
-	if (teibl->array == NULL)
+	table = calloc(1, sizeof(hash_table_t));
+	if (!table)
 		return (NULL);
-
-	return (teibl);
+	table->size = size;
+	table->array = calloc(1, sizeof(hash_node_t *) * size);
+	if (table->array == NULL)
+		return (NULL);
+	return (table);
 }

@@ -3,27 +3,17 @@
 /**
  * hash_table_print - prints contents of hash table
  * @ht: object hash table
- * Return: void
  */
-
 void hash_table_print(const hash_table_t *ht)
 {
-	hash_node_t *ids = NULL;
-	unsigned long int x = 0, flag = 0;
+	hash_node_t *id = NULL;
+	unsigned long int iter = 0, flag = 0;
 
-	if (ht == NULL)
+	if (!ht)
 		return;
-
 	printf("{");
-
-	for (; x != ht->size; x++)
-		for (ids = ht->array[x]; ids; ids = ids->next)
-		{
-			if (flag == 1)
-				printf(", ");
-			printf("'%s': '%s'", ids->key, ids->value);
-			flag = 1;
-		}
-
+	for (; iter < ht->size; ++iter)
+		for (id = ht->array[iter]; id; id = id->next, flag = 1)
+			printf("%s'%s': '%s'", flag ? ", " : "", id->key, id->value);
 	printf("}\n");
 }
