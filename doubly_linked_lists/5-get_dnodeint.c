@@ -6,20 +6,16 @@
  * @index: place of linked list of which we are finding the node
  * Return: pointer to node at index given
  */
-
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *pos;
-	unsigned int ind_X = 0;
+	unsigned int iter = 0;
 
-	pos = head;
-
-	for (; pos; ind_X++)
+	for (pos = head; pos; ++iter)
 	{
-		if (ind_X == index)
+		if (iter == index)
 			return (pos);
 		pos = pos->next;
 	}
-
 	return (NULL);
 }
