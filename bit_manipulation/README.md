@@ -1,4 +1,5 @@
 # C - Bit manipulation
+![bitwise](https://github.com/user-attachments/assets/0383d7c9-4e87-4cb7-aaef-35354c25c4b1)
 ## Resources
 #### Read or watch:
 - [Google](https://www.google.com/)
