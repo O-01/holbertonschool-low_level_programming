@@ -6,13 +6,10 @@
  * @index: position within binary of input
  * Return: 1 upon success, -1 upon error
  */
-
 int clear_bit(unsigned long int *input, unsigned int index)
 {
 	if (index > 63)
 		return (-1);
-
 	*input &= ~(1 << index);
-
 	return (1);
 }

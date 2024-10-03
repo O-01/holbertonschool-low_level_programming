@@ -1,13 +1,13 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+#include <ctype.h>
+#include <limits.h>
+#include <math.h>
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stddef.h>
-#include <limits.h>
-#include <ctype.h>
-#include <math.h>
 #include <unistd.h>
 
 int _putchar(char c);

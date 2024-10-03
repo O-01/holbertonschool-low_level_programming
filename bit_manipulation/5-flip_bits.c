@@ -6,7 +6,6 @@
  * @dest: desired result once bits have been toggled
  * Return: number of bits to toggle
  */
-
 unsigned int flip_bits(unsigned long int orig, unsigned long int dest)
 {
 	unsigned long int versus = orig ^ dest;
@@ -14,6 +13,5 @@ unsigned int flip_bits(unsigned long int orig, unsigned long int dest)
 
 	for (; versus > 0;)
 		sum += (versus & 1), versus >>= 1;
-
 	return (sum);
 }

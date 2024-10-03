@@ -6,29 +6,21 @@
  * @input: binary input
  * Return: decimal equivalent, 0 if input is NULL or input contains non-digits
  */
-
 unsigned int binary_to_uint(const char *input)
 {
-	unsigned int booger = 0;
 	int x = 0, y = 0;
 	unsigned int taker = 0;
 
-	if (input == NULL)
+	if (!input)
 		return (0);
-
-	for (; input[x]; x++)
+	for (; input[x + 1]; ++x)
 		;
-
-	x--;
-
-	for (; input[y]; y++)
+	for (; input[y]; ++y)
 	{
 		if (!(input[y] == '0' || input[y] == '1'))
 			return (0);
-		booger = (input[y] - 48) * _pow(2, x);
-		taker += booger;
-		x--;
+		taker += (input[y] - 48) * _pow(2, x);
+		--x;
 	}
-
 	return (taker);
 }
