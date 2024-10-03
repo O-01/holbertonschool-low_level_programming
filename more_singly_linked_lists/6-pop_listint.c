@@ -5,20 +5,16 @@
  * @head: to be removed from list
  * Return: value of new head
  */
-
 int pop_listint(listint_t **head)
 {
-	listint_t *del;
+	listint_t *delete = NULL;
 	int memento = 0;
 
-	if (*head == NULL)
+	if (!*head)
 		return (0);
-
-	del = *head;
-	memento = del->n;
+	delete = *head;
+	memento = (*head)->n;
 	*head = (*head)->next;
-
-	free(del);
-
+	free(delete), delete = NULL;
 	return (memento);
 }

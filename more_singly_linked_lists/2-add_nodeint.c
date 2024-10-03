@@ -6,19 +6,15 @@
  * @n: int value to be stored in the node
  * Return: address of new node, NULL if mem alloc fails
  */
-
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *add;
+	listint_t *add = NULL;
 
 	add = malloc(sizeof(listint_t));
-
-	if (add == NULL)
+	if (!add)
 		return (NULL);
-
 	add->n = n;
 	add->next = *head;
 	*head = add;
-
 	return (add);
 }

@@ -5,19 +5,13 @@
  * @h: head node
  * Return: number of elements, 0 if h is NULL
  */
-
 size_t print_listint(const listint_t *h)
 {
-	int x = 0, no = 0;
+	int iter = 0;
 
-	if (h == NULL)
+	if (!h)
 		return (0);
-	for (; h; x++)
-	{
-		no = h->n;
-		if (no)
-			printf("%d\n", h->n);
-		h = h->next;
-	}
-	return (x);
+	for (; h; ++iter, h = h->next)
+		printf("%d\n", h->n);
+	return (iter);
 }

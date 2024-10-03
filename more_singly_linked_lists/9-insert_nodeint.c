@@ -7,38 +7,23 @@
  * @n: specified contents of new node
  * Return: address of new node, NULL upon fail invalid index
  */
-
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	listint_t *tmp, *add;
-	unsigned int id_x = 0;
+	listint_t *tmp = NULL, *add = NULL;
+	unsigned int iter = 0;
 
 	add = malloc(sizeof(listint_t));
-
-	if (add == NULL)
+	if (!add)
 		return (NULL);
-
-	tmp = *head;
-
 	add->n = n;
-
-	if (idx == 0)
-	{
-		add->next = *head, *head = add;
-		return (add);
-	}
-
-	for (; id_x != idx - 1; id_x++)
-	{
-		if (id_x < idx && tmp->next == NULL)
+	if (!idx)
+		return (add->next = *head, *head = add);
+	for (tmp = *head; iter != idx - 1; ++iter, tmp = tmp->next)
+		if (iter < idx && !tmp->next)
 			return (NULL);
-		tmp = tmp->next;
-	}
-
-	if (tmp->next != NULL)
+	if (tmp->next)
 		add->next = tmp->next, tmp->next = add;
 	else
 		tmp->next = add, add->next = NULL;
-
 	return (add);
 }

@@ -5,24 +5,14 @@
  * @head: head of input list
  * Return: sum of nodes
  */
-
 int sum_listint(listint_t *head)
 {
-	listint_t *temp;
-	unsigned int plus = 0;
+	listint_t *tmp;
+	unsigned int sum = 0;
 
-	if (head == NULL)
+	if (!head)
 		return (0);
-
-	temp = head;
-
-	for (; temp->next;)
-	{
-		plus += temp->n;
-		temp = temp->next;
-	}
-
-	plus += temp->n;
-
-	return (plus);
+	for (tmp = head; tmp; tmp = tmp->next)
+		sum += tmp->n;
+	return (sum);
 }

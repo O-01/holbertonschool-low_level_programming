@@ -3,23 +3,16 @@
 /**
  * free_listint2 - free linked list, setting head to NULL
  * @head: head of linked list
- * Return: void
  */
-
 void free_listint2(listint_t **head)
 {
-	listint_t *head1, *pos;
+	listint_t *pos = NULL;
 
-	if (head == NULL)
+	if (!head)
 		return;
-
-	head1 = *head;
-	for (; head1;)
+	for (; *head; *head = pos)
 	{
-		pos = head1->next;
-		free(head1);
-		head1 = pos;
+		pos = (*head)->next;
+		free(*head), *head = NULL;
 	}
-	*head = head1;
-	*head = NULL;
 }

@@ -2,8 +2,8 @@
 #define _LISTS_H_
 
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -13,7 +13,6 @@
  *
  * Description: singly linked list node structure
  */
-
 typedef struct list_s
 {
 	char *str;
@@ -29,7 +28,6 @@ typedef struct list_s
  * Description: singly linked list node structure
  *
  */
-
 typedef struct listint_s
 {
 	int n;
