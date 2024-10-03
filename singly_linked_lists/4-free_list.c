@@ -3,18 +3,15 @@
 /**
  * free_list - free linked list
  * @head: head of linked list
- * Return: void
  */
-
 void free_list(list_t *head)
 {
-	list_t *pos;
+	list_t *pos = NULL;
 
-	for (; head;)
+	for (; head; head = pos)
 	{
 		pos = head->next;
-		free(head->str);
-		free(head);
-		head = pos;
+		free(head->str), head->str = NULL;
+		free(head), head = NULL;
 	}
 }

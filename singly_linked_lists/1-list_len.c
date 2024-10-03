@@ -5,16 +5,13 @@
  * @h: head node
  * Return: number of elements, 0 if h is NULL
  */
-
 size_t list_len(const list_t *h)
 {
-	int x = 0;
+	int iter = 0;
 
-	if (h == NULL)
+	if (!h)
 		return (0);
-
-	for (; h; x++)
-		h = h->next;
-
-	return (x);
+	for (; h; ++iter, h = h->next)
+		;
+	return (iter);
 }

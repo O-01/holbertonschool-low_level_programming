@@ -6,36 +6,22 @@
  * @s1: name of the new node
  * Return: address of new node, NULL if mem alloc fails
  */
-
 list_t *add_node_end(list_t **head, const char *s1)
 {
-	int dl = 0;
-	list_t *end;
-	list_t *pos;
+	int len = 0;
+	list_t *end = NULL, *pos = NULL;
 
 	end = malloc(sizeof(list_t));
-
-	if (end == NULL)
+	if (!end)
 		return (NULL);
-
-	for (; s1[dl]; dl++)
+	for (; s1[len]; ++len)
 		;
-
 	end->str = strdup(s1);
-	end->len = dl;
+	end->len = len;
 	end->next = NULL;
-
-	if (*head == NULL)
-		*head = end;
-	else
-	{
-		pos = *head;
-
-		for (; pos->next;)
-			pos = pos->next;
-
-		pos->next = end;
-	}
-
-	return (end);
+	if (!*head)
+		return (*head = end);
+	for (pos = *head; pos->next; pos = pos->next)
+		;
+	return (pos->next = end);
 }
