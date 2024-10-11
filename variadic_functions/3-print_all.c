@@ -1,45 +1,40 @@
 #include "variadic_functions.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
 
 /**
  * print_all - prints inputs of various data types
- * @frmt: list of data types of input arguments
- * Return: void
+ * @format: list of data types of input arguments
  */
-
-void print_all(const char * const frmt, ...)
+void print_all(const char * const format, ...)
 {
-	va_list surf;
-	char *dude, *delim = ", ";
-	int x = 0;
+	va_list set;
+	char *string, *delim = ", ";
+	int iter = 0;
 
-	va_start(surf, frmt);
-	while (frmt && frmt[x])
+	va_start(set, format);
+	while (format && format[iter])
 	{
-		switch (frmt[x])
+		switch (format[iter])
 		{
 		case 'c':
-			printf("%c%s", (char) va_arg(surf, int), delim);
+			printf("%c%s", (char) va_arg(set, int), delim);
 			break;
 		case 'i':
-			printf("%d%s", va_arg(surf, int), delim);
+			printf("%d%s", va_arg(set, int), delim);
 			break;
 		case 'f':
-			printf("%f%s", va_arg(surf, double), delim);
+			printf("%f%s", va_arg(set, double), delim);
 			break;
 		case 's':
-			dude = va_arg(surf, char *);
-			if (!dude)
-				dude = "(nil)";
-			printf("%s%s", dude, delim);
+			string = va_arg(set, char *);
+			if (!string)
+				string = "(nil)";
+			printf("%s%s", string, delim);
 			break;
 		}
-		if (!frmt[x + 2])
+		if (!format[iter + 2])
 			delim = "";
-		x++;
+		++iter;
 	}
 	printf("\n");
-	va_end(surf);
+	va_end(set);
 }
