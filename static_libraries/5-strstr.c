@@ -6,32 +6,24 @@
  * @n: substring we are looking for within h
  * Return: pointer to h if exists, else NULL
  */
-
 char *_strstr(char *h, char *n)
 {
-	int x = 0;
-	int y = 0;
-	int z = 0;
+	int iter = 0, mark = 0, start = 0;
 
-	if (n[x] == '\0')
-		return (&h[z]);
-
-	for (x = 0; h[x] != '\0'; x++)
+	if (!n)
+		return (h);
+	for (; h[iter] != '\0'; iter++)
 	{
-		if (h[x] == n[y])
+		if (h[iter] == n[mark])
 		{
-			y++;
-			if (z == 0)
-				z = x;
-			if (n[y] == '\0')
-				return (&h[z]);
+			mark++;
+			if (!start)
+				start = iter;
+			if (!n[mark])
+				return (&h[start]);
 		}
 		else
-		{
-			y = 0;
-			z = 0;
-		}
+			mark = 0, start = 0;
 	}
-
-	return (0);
+	return ((void *)0);
 }

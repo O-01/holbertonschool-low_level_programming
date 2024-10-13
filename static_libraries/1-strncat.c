@@ -7,24 +7,15 @@
  * @n: number of bytes to which src restricted
  * Return: dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int x = 0, y = 0;
+	int iter = 0, src_iter = 0;
 
-	while (dest[x] != '\0')
-		x++;
-
-	while (y < n && src[y] != src[n])
-	{
-		dest[x] = src[y];
-		x++;
-		y++;
-	}
-
-	if (n < y)
-		dest[x] = '\0';
-
+	for (; dest[iter]; ++iter)
+		;
+	for (; src_iter < n && src[src_iter]; ++src_iter, ++iter)
+		dest[iter] = src[src_iter];
+	if (src_iter < n)
+		dest[iter] = '\0';
 	return (dest);
-
 }

@@ -6,21 +6,17 @@
  * @s2: string to be compared against
  * Return: number of characters until which s1 matches any from s2
  */
-
 unsigned int _strspn(char *s1, char *s2)
 {
-	unsigned int x;
-	unsigned int y;
-	unsigned int z = 0;
+	unsigned int iter = 0, s2_iter = 0, spn = 0;
 
-	for (x = 0; s1[x] != '\0'; x++)
+	for (iter = 0; s1[iter]; ++iter, ++spn)
 	{
-		if (z != x)
+		for (s2_iter = 0; s2[s2_iter]; ++s2_iter)
+			if (s1[iter] == s2[s2_iter])
+				break;
+		if (!s2[s2_iter])
 			break;
-		for (y = 0; s2[y] != '\0'; y++)
-			if (s1[x] == s2[y])
-				z++;
 	}
-
-	return (z);
+	return (spn);
 }

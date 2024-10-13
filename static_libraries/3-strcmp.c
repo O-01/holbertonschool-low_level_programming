@@ -6,14 +6,12 @@
  * @s2: string 2
  * Return: value of difference
  */
-
 int _strcmp(char *s1, char *s2)
 {
-	int x = 0;
+	int iter = 0, cmp = 0;
 
-	while (s1[x] == s2[x] && (s1[x] != '\0' || s2[x] != '\0'))
-		x++;
-
-	x = (s1[x] - s2[x]);
-	return (x);
+	for (; s1[iter] == s2[iter] && (s1[iter] || s2[iter]); ++iter)
+		;
+	cmp = s1[iter] - s2[iter];
+	return (cmp);
 }

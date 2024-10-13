@@ -6,23 +6,13 @@
  * @s2: sample string
  * Return: s1 bytes matching that of s2 if present, else NULL
  */
-
 char *_strpbrk(char *s1, char *s2)
 {
-	char *x;
+	char *str1, *str2;
 
-	while (*s1 != '\0')
-	{
-		x = s2;
-
-		while (*x != '\0')
-		{
-			if (*s1 == *x)
+	for (str1 = s1; *str1; ++str1)
+		for (str2 = s2; *str2; ++str2)
+			if (*str1 == *str2)
 				return (s1);
-
-			x++;
-		}
-		s1++;
-	}
-	return (0);
+	return ((void *)0);
 }

@@ -3,34 +3,21 @@
 /**
  * _atoi - converts string to integer
  * @s: object string
- *
  * Return: <undecided for the moment>
  */
-
-int _atoi(char *s)
+int _atoi(char *input_string)
 {
-	int a;
-	int p = 1;
-	int la = 0;
-	unsigned int c = 0;
+	int iter = 0, sign = 1, done = 0;
+	unsigned long out = 0;
 
-	for (a = 0; s[a] != '\0'; a++)
+	if (input_string[0] == '-')
+		sign = -(sign);
+	for (; input_string[iter]; ++iter)
 	{
-
-		if (s[a] == '-')
-			p = -(p);
-
-		while (s[a] >= '0' && s[a] <= '9')
-		{
-			c = (c * 10) + (s[a] - '0');
-			a++;
-			la = 1;
-		}
-
-		if (la == 1)
+		for (; input_string[iter] >= '0' && input_string[iter] <= '9'; ++iter)
+			out = (out * 10) + (input_string[iter] - '0'), done = 1;
+		if (done)
 			break;
-
 	}
-
-	return (c * p);
+	return (out * sign);
 }

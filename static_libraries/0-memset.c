@@ -7,13 +7,11 @@
  * @n: number of positions of s to fill with b
  * Return: s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int x;
+	unsigned int iter = 0;
 
-	for (x = 0; x < n; x++)
-		s[x] = b;
-
+	for (; iter < n; ++iter)
+		s[iter] = b;
 	return (s);
 }

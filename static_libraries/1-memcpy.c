@@ -7,13 +7,11 @@
  * @n: amount of src to be copied to dest
  * Return: dest
  */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int x;
+	unsigned int iter = 0;
 
-	for (x = 0; x < n; x++)
-		dest[x] = src[x];
-
+	for (; iter < n; ++iter)
+		dest[iter] = src[iter];
 	return (dest);
 }
