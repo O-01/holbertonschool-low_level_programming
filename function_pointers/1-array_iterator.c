@@ -5,15 +5,13 @@
  * @array: input array
  * @size: input size
  * @action: function pointer
- * Return: void
  */
-
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int x = 0;
+	unsigned int iter = 0;
 
-	if (action != NULL)
-		if (array != NULL)
-			for (; x < size; x++)
-				action(array[x]);
+	if (!action || !array)
+		return;
+	for (; iter < size; ++iter)
+		action(array[iter]);
 }

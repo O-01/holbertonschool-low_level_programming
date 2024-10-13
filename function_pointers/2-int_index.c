@@ -7,25 +7,14 @@
  * @cmp: compares input function return
  * Return: index of cmp return in array, -1 if no match or size < 1
  */
-
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int x = 0;
+	int iter = 0;
 
-	if (size < 1 || cmp == NULL || array == NULL)
+	if (size < 1 || !cmp || !array)
 		return (-1);
-
-	if (cmp != NULL)
-		if (array != NULL)
-			for (; x < size; x++)
-			{
-				cmp(array[x]);
-				if (cmp(array[x]) > 0)
-					return (x);
-			}
-
-	if (cmp(array[x]) == 0)
-		return (-1);
-
-	return (0);
+	for (; iter < size; ++iter)
+		if (cmp(array[iter]))
+			return (iter);
+	return (-1);
 }
