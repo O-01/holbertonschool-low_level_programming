@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print all arguments
@@ -6,14 +6,11 @@
  * @argv: argument vector
  * Return: 0
  */
-
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int x = 0;
+	int iter = 0;
 
-	if (argc)
-		for (; argv[x]; x++)
-			printf("%s\n", argv[x]);
-
+	for (; argv[iter]; ++iter)
+		printf("%s\n", argv[iter]);
 	return (0);
 }

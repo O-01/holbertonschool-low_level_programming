@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 #include <ctype.h>
 
 /**
@@ -8,38 +7,17 @@
  * @argv: argument vector
  * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
-	int x = 1;
-	int y = 0;
-	char *z;
+	int iter = 1, sum = 0;
+	char *c;
 
-	if (argc > 1)
-	{
-		for (; x < argc; x++)
-		{
-			z = argv[x];
-
-			while (*z)
-			{
-				if (!isdigit(*z))
-				{
-					printf("Error\n");
-					return (1);
-				}
-
-				z++;
-			}
-
-			y += atoi(argv[x]);
-		}
-
-		printf("%d\n", y);
-	}
-
-	else
-		printf("0\n");
-
+	if (argc < 2)
+		return (printf("0\n"), 0);
+	for (; iter < argc; ++iter, sum += atoi(argv[iter]))
+		for (c = argv[iter]; *c; ++c)
+			if (!isdigit(*c))
+				return (printf("Error\n"), 1);
+	printf("%d\n", sum);
 	return (0);
 }
