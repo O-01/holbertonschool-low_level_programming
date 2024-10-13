@@ -3,16 +3,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * struct dog - dog attributes
  * @name: name
  * @age: age
  * @owner: owner
- *
  * Description: pretty much a struct to hold the attributes of a dog
  */
-
 typedef struct dog
 {
 	char *name;
