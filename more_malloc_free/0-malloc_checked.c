@@ -1,21 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * malloc_checked - allocates memory & checks that correct amount allocated
- * @x: what should be allocated
+ * @b: what should be allocated
  * Return: void pointer
  */
-
-void *malloc_checked(unsigned int x)
+void *malloc_checked(unsigned int b)
 {
-	void *y;
+	void *add = NULL;
 
-	y = malloc(x);
-
-	if (y == NULL)
+	add = malloc(b);
+	if (!add)
 		exit(98);
-
-	return (y);
+	return (add);
 }
