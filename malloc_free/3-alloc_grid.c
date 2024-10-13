@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * alloc_grid - makes 2d int array of width w & height h
@@ -8,36 +6,29 @@
  * @h: height
  * Return: NULL if w or h is null or upon fail, else pointer to 2d int array
  */
-
 int **alloc_grid(int w, int h)
 {
-	int **mun = 0;
-	int x = 0;
-	int y = 0;
+	int **grid = NULL;
+	int x = 0, y = 0;
 
-	mun = malloc(sizeof(int *) * h);
-
-	if ((w * h) < 1 || mun == NULL)
+	if ((w * h) < 1)
 		return (NULL);
-
-	for (; y < h; y++)
+	grid = malloc(sizeof(int *) * h);
+	if (!grid)
+		return (NULL);
+	for (; y < h; ++y)
 	{
-		mun[y] = malloc(sizeof(int) * w);
-
-		if (mun[y] == NULL)
+		grid[y] = malloc(sizeof(int) * w);
+		if (!grid[y])
 		{
-			for (; y >= 0; y--)
-				free(mun[y]);
-
-			free(mun);
-
+			for (x = 0; x < y; ++x)
+				free(grid[x]);
+			free(grid), grid = NULL;
 			return (NULL);
 		}
 	}
-
-	for (; x < w; x++)
-		for (; y < h; y++)
-			mun[x][y] = 0;
-
-	return (mun);
+	for (y = 0; y < h; ++y)
+		for (x = 0; x < w; ++x)
+			grid[y][x] = 0;
+	return (grid);
 }

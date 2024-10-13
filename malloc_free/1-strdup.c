@@ -1,32 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * _strdup - duplicates string s1 & returns pointer to the duplicate
  * @s1: object string
  * Return: pointer to duplicate of s1
  */
-
 char *_strdup(char *s1)
 {
-	char *klon = 0;
-	unsigned int x = 0;
-	unsigned int y = 0;
+	char *dup = NULL;
+	unsigned int iter = 0, size = 0;
 
-	if (s1 == 0)
+	if (!s1)
 		return (NULL);
-
-	y = strlen(s1) + 1;
-
-	klon = malloc(sizeof(char) * y);
-
-	if (klon == 0)
+	size = strlen(s1) + 1;
+	dup = malloc(sizeof(char) * size);
+	if (!dup)
 		return (NULL);
-
-	for (; x < y; x++)
-		klon[x] = s1[x];
-
-	return (klon);
+	for (; iter < size; ++iter)
+		dup[iter] = s1[iter];
+	return (dup);
 }
