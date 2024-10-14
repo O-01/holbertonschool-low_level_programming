@@ -5,11 +5,9 @@
  * @s: object string
  * Return: string length value
  */
-
 int _strlen_recursion(char *s)
 {
-	if (*s != '\0')
+	if (*s)
 		return (1 + _strlen_recursion(s + 1));
-	else
-		return (0);
+	return (0);
 }
