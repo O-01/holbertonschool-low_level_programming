@@ -12,7 +12,7 @@ int _atoi(char *input_string)
 
 	for (; input_string[iter] && !done; ++iter)
 	{
-		if (input_string[0] == '-')
+		if (input_string[iter] == '-')
 			sign = -(sign);
 		for (; input_string[iter] >= '0' && input_string[iter] <= '9'; ++iter)
 			out = (out * 10) + (input_string[iter] - '0'), done = 1;
