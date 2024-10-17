@@ -3,15 +3,12 @@
 /**
  * print_line - print underscore to value of int n
  * @n: number of underscores to print
- *
- * Return: void
  */
-
 void print_line(int n)
 {
-	int soz;
+	int iter = 0;
 
-	for (soz = 1; soz <= n; soz++)
+	for (; iter < n; ++iter)
 		_putchar('_');
 	_putchar('\n');
 }

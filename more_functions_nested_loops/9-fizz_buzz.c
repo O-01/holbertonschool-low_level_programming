@@ -3,29 +3,23 @@
 /**
  * main - prints 1-100 with Fizz & Buzz printed for each multiple of 3 & 5
  * respectively
- *
  * Return: 0
  */
-
 int main(void)
 {
-	int f;
+	int f = 1, printed = 0;
 
-	for (f = 1; f <= 100; f++)
+	for (; f <= 100; ++f, printed = 0)
 	{
-		if (((f % 3) == 0) && ((f % 5) == 0))
-			printf("FizzBuzz");
-		else if ((f % 3) == 0)
-			printf("Fizz");
-		else if ((f % 5) == 0)
-			printf("Buzz");
-		else
+		if (!(f % 3))
+			printed += printf("Fizz");
+		if (!(f % 5))
+			printed += printf("Buzz");
+		if (!printed)
 			printf("%d", f);
-
 		if (f < 100)
-			printf(" ");
+			putchar(' ');
 	}
-
 	putchar('\n');
 	return (0);
 }

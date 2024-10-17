@@ -3,23 +3,18 @@
 
 /**
  * more_numbers - prints 0-14 10 times
- *
- * Return: 0
- *
  */
-
 void more_numbers(void)
 {
-	int po;
-	int pu;
+	char num = 0, iter = 0;
 
-	for (pu = 0; pu <= 9; pu++)
+	for (; iter < 10; ++iter)
 	{
-		for (po = 0; po <= 14; po++)
+		for (num = 0; num <= 14; ++num)
 		{
-			if (po > 9)
-				_putchar((po / 10) + '0');
-			_putchar((po % 10) + '0');
+			if (num > 9)
+				_putchar((num / 10) + '0');
+			_putchar((num % 10) + '0');
 		}
 		_putchar('\n');
 	}

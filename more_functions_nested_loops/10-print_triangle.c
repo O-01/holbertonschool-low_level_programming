@@ -3,31 +3,23 @@
 /**
  * print_triangle - prints triange of input size
  * @size: size of triangle
- *
- * Return: void
  */
-
 void print_triangle(int size)
 {
-	int sa;
-	int se;
-	int su;
+	int y = 0, x = 0, angle = 0;
 
-	if (size > 0)
-	{
-		for (sa = 0; sa < size; sa++)
-		{
-			su = (size - sa - 1);
-			for (se = 0; se < size; se++)
-			{
-				if (se < su)
-					_putchar(' ');
-				else
-					_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
-	else
+	if (size <= 0)
 		_putchar('\n');
+	for (; y < size; ++y)
+	{
+		angle = (size - y - 1);
+		for (x = 0; x < size; ++x)
+		{
+			if (x < angle)
+				_putchar(' ');
+			else
+				_putchar('#');
+		}
+		_putchar('\n');
+	}
 }
