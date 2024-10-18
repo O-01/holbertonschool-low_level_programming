@@ -2,26 +2,16 @@
 
 /**
  * main - hex 0 to 16
- *
  * Return: 0
- *
  */
-
 int main(void)
 {
-int n;
-char c;
+	char c;
 
-for (n = '0'; n <= '9'; ++n)
-{
-putchar(n);
-}
-
-for (c = 'a'; c <= 'f'; ++c)
-{
-putchar(c);
-}
-
-putchar('\n');
-return (0);
+	for (c = '0'; c <= '9'; ++c)
+		putchar(c);
+	for (c = 'a'; c <= 'f'; ++c)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }

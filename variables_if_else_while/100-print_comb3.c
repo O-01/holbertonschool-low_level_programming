@@ -4,24 +4,20 @@
  * main - prints all possible different combos of 2 digits
  * Return: 0
  */
-
 int main(void)
 {
-	int x = 0, y = 0;
+	int tens = 0, ones = 0;
 
-	for (; x < 10; x++)
-		for (y = x + 1; y < 10; y++)
+	for (; tens < 10; ++tens)
+		for (ones = tens + 1; ones < 10; ++ones)
 		{
-			putchar(x + '0');
-			putchar(y + '0');
-
-			if (x == 8 && y == 9)
+			putchar(tens + '0');
+			putchar(ones + '0');
+			if (tens == 8 && ones == 9)
 				continue;
-
 			putchar(',');
 			putchar(' ');
 		}
-
 	putchar('\n');
 	return (0);
 }

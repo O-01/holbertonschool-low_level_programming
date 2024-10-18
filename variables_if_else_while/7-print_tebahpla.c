@@ -2,19 +2,14 @@
 
 /**
  * main - print the tebahpla
- *
  * Return: 0
- *
  */
-
 int main(void)
 {
-char n;
+	char n = 'z';
 
-for (n = 'z'; n >= 'a'; --n)
-{
-putchar(n);
-}
-putchar('\n');
-return (0);
+	for (; n >= 'a'; --n)
+		putchar(n);
+	putchar('\n');
+	return (0);
 }

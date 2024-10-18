@@ -4,24 +4,19 @@
  * main - prints all possible combinations of 3 digits
  * Return: 0
  */
-
 int main(void)
 {
-	int x = 0, y = 0, z = 0;
+	int hundreds = 0, tens = 0, ones = 0;
 
-	for (; x < 8; x++)
-		for (y = x + 1; y < 9; y++)
-			for (z = y + 1; z < 10; z++)
+	for (; hundreds < 8; ++hundreds)
+		for (tens = hundreds + 1; tens < 9; ++tens)
+			for (ones = tens + 1; ones < 10; ++ones)
 			{
-				putchar(x + '0');
-				putchar(y + '0');
-				putchar(z + '0');
-
-				if (x == 7 &&
-				    y == 8 &&
-				    z == 9)
+				putchar(hundreds + '0');
+				putchar(tens + '0');
+				putchar(ones + '0');
+				if (hundreds == 7 && tens == 8 && ones == 9)
 					continue;
-
 				putchar(',');
 				putchar(' ');
 			}

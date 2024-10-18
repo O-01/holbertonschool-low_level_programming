@@ -2,24 +2,21 @@
 
 /**
  * main - print numbers 0 - 9 separated by comma & space each
- *
  * Return: 0
- *
  */
-
 int main(void)
 {
-int n;
+	int n = 0;
 
-for (n = 0; n <= 9; ++n)
-{
-putchar('0' + n);
-if (n <= 8)
-{
-putchar(',');
-putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+	for (; n < 10; ++n)
+	{
+		putchar(n + '0');
+		if (n < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
