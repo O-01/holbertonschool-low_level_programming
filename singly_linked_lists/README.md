@@ -107,7 +107,7 @@ julien@ubuntu:~/Singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `singly_linked_lists`
 - File: `0-print_list.c`
 #
@@ -157,7 +157,7 @@ julien@ubuntu:~/Singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `singly_linked_lists`
 - File: `1-list_len.c`
 #
@@ -249,7 +249,7 @@ julien@ubuntu:~/Singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `singly_linked_lists`
 - File: `2-add_node.c`
 #
@@ -341,7 +341,7 @@ julien@ubuntu:~/Singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `singly_linked_lists`
 - File: `3-add_node_end.c`
 #
@@ -400,7 +400,7 @@ julien@ubuntu:~/Singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `singly_linked_lists`
 - File: `4-free_list.c`
 #
@@ -431,7 +431,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `singly_linked_lists`
 - File: `100-first.c`
 #

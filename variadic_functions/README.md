@@ -63,7 +63,7 @@ julien@ubuntu:~/0x0f. variadic functions$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variadic_functions`
 - File: `0-sum_them_all.c`
 #
@@ -96,7 +96,7 @@ julien@ubuntu:~/0x0f. variadic functions$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variadic_functions`
 - File: `1-print_numbers.c`
 #
@@ -130,7 +130,7 @@ julien@ubuntu:~/0x0f. Variadic functions$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variadic_functions`
 - File: `2-print_strings.c`
 #
@@ -172,7 +172,7 @@ julien@ubuntu:~/0x0f. Variadic functions$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variadic_functions`
 - File: `3-print_all.c`
 #
@@ -193,7 +193,7 @@ julien@ubuntu:~/0x0f. Variadic functions$ nasm -f elf64 100-hello_world.asm && l
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variadic_functions`
 - File: `100-hello_world.asm`
 #

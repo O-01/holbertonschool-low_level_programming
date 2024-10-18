@@ -60,7 +60,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `structures_typedef`
 - File: `dog.h`
 #
@@ -92,7 +92,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `structures_typedef`
 - File: `1-init_dog.c`
 #
@@ -132,7 +132,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `structures_typedef`
 - File: `2-print_dog.c`
 #
@@ -165,7 +165,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `structures_typedef`
 - File: `dog.h`
 #
@@ -199,7 +199,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `structures_typedef`
 - File: `4-new_dog.c`
 #
@@ -246,7 +246,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `structures_typedef`
 - File: `5-free_dog.c`
 #

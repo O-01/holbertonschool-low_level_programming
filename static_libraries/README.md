@@ -169,7 +169,7 @@ julien@ubuntu:~/Static Librairies$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `static_libraries`
 - File: `libmy.a`, `main.h`
 #
@@ -207,7 +207,7 @@ julien@ubuntu:~/Static Librairies$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `static_libraries`
 - File: `create_static_lib.sh`
 #

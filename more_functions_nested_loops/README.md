@@ -70,7 +70,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `0-isupper.c`
 #
@@ -109,7 +109,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `1-isdigit.c`
 #
@@ -140,7 +140,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `2-mul.c`
 #
@@ -169,7 +169,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `3-print_numbers.c`
 #
@@ -199,7 +199,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `4-print_most_numbers.c`
 #
@@ -237,7 +237,7 @@ julien@ubuntu:~/
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `5-more_numbers.c`
 #
@@ -275,7 +275,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `6-print_line.c`
 #
@@ -323,7 +323,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `7-print_diagonal.c`
 #
@@ -370,7 +370,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `8-print_square.c`
 #
@@ -388,7 +388,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `9-fizz_buzz.c`
 #
@@ -451,7 +451,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `10-print_triangle.c`
 #
@@ -464,7 +464,7 @@ Write a program that finds and prints the largest prime factor of the number `61
 - Your program will be compiled with this command: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm`
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `100-prime_factor.c`
 #
@@ -509,7 +509,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `more_functions_nested_loops`
 - File: `101-print_number.c`
 #

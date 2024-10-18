@@ -75,7 +75,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `0-positive_or_negative.c`
 #
@@ -124,7 +124,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `1-last_digit.c`
 #
@@ -141,7 +141,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `2-print_alphabet.c`
 #
@@ -158,7 +158,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `3-print_alphabets.c`
 #
@@ -177,7 +177,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `4-print_alphabt.c`
 #
@@ -192,7 +192,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `5-print_numbers.c`
 #
@@ -210,7 +210,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `6-print_numberz.c`
 #
@@ -227,7 +227,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `7-print_tebahpla.c`
 #
@@ -244,7 +244,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `8-print_base16.c`
 #
@@ -264,7 +264,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `9-print_comb.c`
 #
@@ -288,7 +288,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `100-print_comb3.c`
 #
@@ -311,7 +311,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `101-print_comb4.c`
 #
@@ -334,7 +334,7 @@ julien@ubuntu:~/$ ./102-print_comb5
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `variables_if_else_while`
 - File: `102-print_comb5.c`
 #

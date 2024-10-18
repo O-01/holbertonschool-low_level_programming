@@ -58,7 +58,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `0-strcat.c`
 #
@@ -113,7 +113,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `1-strncat.c`
 #
@@ -187,7 +187,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `2-strncpy.c`
 #
@@ -226,7 +226,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `3-strcmp.c`
 #
@@ -285,7 +285,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `4-rev_array.c`
 #
@@ -320,7 +320,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `5-string_toupper.c`
 #
@@ -358,7 +358,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `6-cap_string.c`
 #
@@ -402,7 +402,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `7-leet.c`
 #
@@ -462,7 +462,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `100-rot13.c`
 #
@@ -507,7 +507,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `101-print_number.c`
 #
@@ -524,7 +524,7 @@ Add one line to [this code](https://github.com/hs-hq/make_magic_happen/blob/main
 - You are allowed to use the standard library
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `102-magic.c`
 #
@@ -610,7 +610,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `103-infinite_add.c`
 #
@@ -666,7 +666,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `104-print_buffer.c`
 #

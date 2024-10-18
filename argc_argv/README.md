@@ -40,7 +40,7 @@ julien@ubuntu:~/argc, argv$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `argc_argv`
 - File: `0-whatsmyname.c`
 #
@@ -61,7 +61,7 @@ julien@ubuntu:~/argc, argv$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `argc_argv`
 - File: `1-args.c`
 #
@@ -86,7 +86,7 @@ julien@ubuntu:~/argc, argv$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `argc_argv`
 - File: `2-args.c`
 #
@@ -111,7 +111,7 @@ julien@ubuntu:~/argc, argv$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `argc_argv`
 - File: `3-mul.c`
 #
@@ -135,7 +135,7 @@ julien@ubuntu:~/argc, argv$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `argc_argv`
 - File: `4-add.c`
 #
@@ -164,7 +164,7 @@ julien@ubuntu:~/argc, argv$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `argc_argv`
 - File: `100-change.c`
 #

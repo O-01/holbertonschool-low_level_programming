@@ -60,7 +60,7 @@ julien@ubuntu:~/0x0c. macro, structures$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `preprocessor`
 - File: `0-object_like_macro.h`
 #
@@ -94,7 +94,7 @@ julien@ubuntu:~/0x0c. macro, structures$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `preprocessor`
 - File: `1-pi.h`
 #
@@ -113,7 +113,7 @@ julien@ubuntu:~/0x0c. macro, structures$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `preprocessor`
 - File: `2-main.c`
 #
@@ -147,7 +147,7 @@ julien@ubuntu:~/0x0c. macro, structures$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `preprocessor`
 - File: `3-function_like_macro.h`
 #
@@ -179,7 +179,7 @@ julien@ubuntu:~/0x0c. macro, structures$
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `preprocessor`
 - File: `4-sum.h`
 #

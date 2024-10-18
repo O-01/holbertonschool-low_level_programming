@@ -96,7 +96,7 @@ Found 999 at index: -1
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `0-linear.c`
 #
@@ -154,7 +154,7 @@ Found 999 at index: -1
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `1-binary.c`
 #
@@ -162,7 +162,7 @@ Found 999 at index: -1
 What is the `time complexity` (worst case) of a linear search in an array of size `n`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `2-O`
 #
@@ -170,7 +170,7 @@ What is the `time complexity` (worst case) of a linear search in an array of siz
 What is the `space complexity` (worst case) of an iterative linear search algorithm in an array of size `n`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `3-O`
 #
@@ -178,7 +178,7 @@ What is the `space complexity` (worst case) of an iterative linear search algori
 What is the `time complexity` (worst case) of a binary search in an array of size `n`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `4-O`
 #
@@ -186,7 +186,7 @@ What is the `time complexity` (worst case) of a binary search in an array of siz
 What is the `space complexity` (worst case) of a binary search in an array of size `n`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `5-O`
 #
@@ -207,7 +207,7 @@ int **allocate_map(int n, int m)
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `6-O`
 #
@@ -274,7 +274,7 @@ Found 999 at index: -1
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `100-jump.c`
 #
@@ -282,7 +282,7 @@ Found 999 at index: -1
 What is the `time complexity` (average case) of a jump search in an array of size `n`, using `step = sqrt(n)`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `101-O`
 #
@@ -334,7 +334,7 @@ Found 999 at index: -1
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `102-interpolation.c`
 #
@@ -404,7 +404,7 @@ Found 999 at index: -1
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `103-exponential.c`
 #
@@ -464,7 +464,7 @@ Found 999 at index: -1
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `104-advanced_binary.c`
 #
@@ -588,7 +588,7 @@ Found 999 at index: (nil)
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `105-jump_list.c`
 #
@@ -717,7 +717,7 @@ Found 999 at index: (nil)
 ```
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `106-linear_skip.c`
 #
@@ -725,7 +725,7 @@ Found 999 at index: (nil)
 What is the `time complexity` (average case) of a jump search in a singly linked list of size `n`, using `step = sqrt(n)`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `107-O`
 #
@@ -733,7 +733,7 @@ What is the `time complexity` (average case) of a jump search in a singly linked
 What is the `time complexity` (average case) of a jump search in a skip list of size `n`, with an express lane using `step = sqrt(n)`?
 #
 #### Repo:
-- GitHub repository: `holbertonschool-low_level_programming`
+- GitHub repository: `atlas-low_level_programming`
 - Directory: `search_algorithms`
 - File: `108-O`
 #
