@@ -5,9 +5,4 @@
  * @c: input checked for uppercaseness
  * Return: 1 if upper, else 0
  */
-int _isupper(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	return (0);
-}
+int _isupper(int c) { return (c >= 'A' && c <= 'Z'); }
