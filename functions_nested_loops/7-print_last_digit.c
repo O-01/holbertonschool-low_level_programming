@@ -2,20 +2,15 @@
 
 /**
  * print_last_digit - obvious
- * @oOo: int of which we output last digit
- *
- * Return: 0
+ * @n: int of which we output last digit
+ * Return: value of last digit
  */
-
-int print_last_digit(int oOo)
+int print_last_digit(int n)
 {
-	int OoO;
+	int last_digit = n % 10;
 
-	OoO = (oOo % 10);
-	if (OoO < 0)
-	{
-		OoO = (OoO * (-1));
-	}
-	_putchar(OoO + '0');
-	return (OoO);
+	if (last_digit < 0)
+		last_digit = -(last_digit);
+	_putchar(last_digit + '0');
+	return (last_digit);
 }

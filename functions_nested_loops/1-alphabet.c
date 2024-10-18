@@ -1,24 +1,13 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
  * print_alphabet - use print_alphabet to (obvious)
- *
- * Return: 0
- *
  */
-
 void print_alphabet(void)
 {
-	char alpha;
+	char alpha = 'a';
 
-	alpha = 'a';
-
-	while (alpha <= 'z')
-	{
+	for (; alpha <= 'z'; ++alpha)
 		_putchar(alpha);
-		alpha++;
-	}
-
 	_putchar('\n');
 }

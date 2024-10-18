@@ -1,49 +1,31 @@
 #include "main.h"
 
 /**
- * times_table - multiples of 9 in a table
- *
- * Return: 0
+ * times_table - multiples of 9 in y table
  */
-
 void times_table(void)
 {
-	int a;
-	int b;
-	int v;
+	int y = 0, x = 0, result = 0;
 
-	for (a = 0; a <= 9; a++)
+	for (y = 0; y < 10; ++y)
 	{
-		for (b = 0; b <= 9; b++)
+		for (x = 0; x < 10; ++x)
 		{
-			v = a * b;
-			if (b > 0 && b <= 9)
+			result = y * x;
+			if (x > 0 && x < 10)
 			{
-				if (v > 9)
-				{
-					_putchar(',');
+				_putchar(',');
+				_putchar(' ');
+				if (result < 10)
 					_putchar(' ');
-				}
-				else
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
 			}
-			if (v <= 9)
-			{
-				_putchar(v + 48);
-			}
+			if (result < 10)
+				_putchar(result + '0');
 			else
-			{
-				_putchar((v / 10) + 48);
-				_putchar((v % 10) + 48);
-			}
-			if (b == 9)
-			{
+				_putchar((result / 10) + '0'),
+				_putchar((result % 10) + '0');
+			if (x == 9)
 				_putchar('\n');
-			}
 		}
 	}
 }

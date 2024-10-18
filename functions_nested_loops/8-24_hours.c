@@ -2,37 +2,23 @@
 
 /**
  * jack_bauer - Bauer Bauer 24 hour
- *
- * Return: void
  */
-
 void jack_bauer(void)
 {
-	int a;
-	int b;
-	int v;
-	int g;
+	int hour_10, hour, minute_10, minute;
 
-	for (a = 0; a < 3; a++)
-	{
-		for (b = 0; b <= 9; b++)
-		{
-			for (v = 0; v < 6; v++)
-			{
-				for (g = 0; g <= 9; g++)
+	for (hour_10 = 0; hour_10 < 3; ++hour_10)
+		for (hour = 0; hour < 10; ++hour)
+			for (minute_10 = 0; minute_10 < 6; ++minute_10)
+				for (minute = 0; minute < 10; ++minute)
 				{
-					if (a == 2 && b > 3)
-					{
+					if (hour_10 == 2 && hour > 3)
 						break;
-					}
-					_putchar(a + 48);
-					_putchar(b + 48);
+					_putchar(hour_10 + '0');
+					_putchar(hour + '0');
 					_putchar(':');
-					_putchar(v + 48);
-					_putchar(g + 48);
+					_putchar(minute_10 + '0');
+					_putchar(minute + '0');
 					_putchar('\n');
 				}
-			}
-		}
-	}
 }

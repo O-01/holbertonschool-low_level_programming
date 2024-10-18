@@ -1,20 +1,9 @@
 #include "main.h"
 
 /**
- * add - addition
- * @i: int1
- * @t: int2
- *
- *
- * Return: 0
- *
+ * add - addition of two integer arguments
+ * @a: int 1
+ * @b: int 2
+ * Return: sum of a and b
  */
-
-int add(int i, int t)
-{
-	int g;
-
-	g = i + t;
-
-	return (g);
-}
+int add(int a, int b) { return (a + b); }

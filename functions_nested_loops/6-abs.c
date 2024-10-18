@@ -2,17 +2,7 @@
 
 /**
  * _abs - compute absolute value of integer
- * @ooo: number for absoluteness verification
- *
- * Return: 0
- *
+ * @n: number for absoluteness verification
+ * Return: absolute value of n
  */
-
-int _abs(int ooo)
-{
-	if (ooo < 0)
-	{
-		ooo = ooo * (-1);
-	}
-	return (ooo);
-}
+int _abs(int n) { return (n < 0 ? n = -(n) : n); }
