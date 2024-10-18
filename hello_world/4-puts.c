@@ -2,13 +2,10 @@
 
 /**
  * main - puts message "Programming is like building a multilingual puzzle"
- *
- * Return: 0 means yes, string was putted.
+ * Return: 0
  */
-int main(void) /* main - puts things - what do you want, betty */
+int main(void)
 {
-char momo[] = "\"Programming is like building a multilingual puzzle";
-
-puts(momo);
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
