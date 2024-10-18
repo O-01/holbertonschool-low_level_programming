@@ -119,7 +119,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `0-preprocessor`
 #
@@ -152,7 +152,7 @@ julien@ubuntu:~/c/$ cat -v main.o | head
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `1-compiler`
 #
@@ -204,7 +204,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `2-assembler`
 #
@@ -233,7 +233,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `3-name`
 #
@@ -251,7 +251,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `4-puts.c`
 #
@@ -271,7 +271,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `5-printf.c`
 #
@@ -302,7 +302,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `6-size.c`
 #
@@ -362,7 +362,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `100-intel`
 #
@@ -386,7 +386,7 @@ julien@ubuntu:~/c/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hello_world`
 - File: `101-quote.c`
 #

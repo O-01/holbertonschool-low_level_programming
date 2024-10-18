@@ -63,7 +63,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `0-reset_to_98.c`
 #
@@ -100,7 +100,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `1-swap.c`
 #
@@ -136,7 +136,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `2-strlen.c`
 #
@@ -169,7 +169,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `3-puts.c`
 #
@@ -200,7 +200,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `4-print_rev.c`
 #
@@ -234,7 +234,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `5-rev_string.c`
 #
@@ -265,7 +265,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `6-puts2.c`
 #
@@ -298,7 +298,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `7-puts_half.c`
 #
@@ -337,7 +337,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `8-print_array.c`
 #
@@ -376,7 +376,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `9-strcpy.c`
 #
@@ -438,7 +438,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `100-atoi.c`
 #
@@ -457,7 +457,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `pointers_arrays_strings`
 - File: `101-keygen.c`
 #

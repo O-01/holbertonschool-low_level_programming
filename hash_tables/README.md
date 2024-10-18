@@ -122,7 +122,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `0-hash_table_create.c`
 #
@@ -177,7 +177,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `1-djb2.c`
 #
@@ -230,7 +230,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `2-key_index.c`
 #
@@ -275,7 +275,7 @@ If you want to test for collisions, here are some strings that collide using the
 - **dram** collides with **vivency**
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `3-hash_table_set.c`
 #
@@ -344,7 +344,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `4-hash_table_get.c`
 #
@@ -392,7 +392,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `5-hash_table_print.c`
 #
@@ -463,7 +463,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `6-hash_table_delete.c`
 #
@@ -579,7 +579,7 @@ julien@ubuntu:~/Hash tables$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `hash_tables`
 - File: `100-sorted_hash_table.c`
 #

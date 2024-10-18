@@ -106,7 +106,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `0-create_array.c`
 #
@@ -150,7 +150,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `1-strdup.c`
 #
@@ -192,7 +192,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `2-str_concat.c`
 #
@@ -271,7 +271,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `3-alloc_grid.c`
 #
@@ -363,7 +363,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `4-free_grid.c`
 #
@@ -412,7 +412,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `100-argstostr.c`
 #
@@ -474,7 +474,7 @@ julien@ubuntu:~/0x0a. malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `malloc_free`
 - File: `101-strtow.c`
 #

@@ -78,7 +78,7 @@ julien@ubuntu:~/0x0b. more malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_malloc_free`
 - File: `0-malloc_checked.c`
 #
@@ -116,7 +116,7 @@ julien@ubuntu:~/0x0b. more malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_malloc_free`
 - File: `1-string_nconcat.c`
 #
@@ -197,7 +197,7 @@ julien@ubuntu:~/0x0b. more malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_malloc_free`
 - File: `2-calloc.c`
 #
@@ -265,7 +265,7 @@ julien@ubuntu:~/0x0b. more malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_malloc_free`
 - File: `3-array_range.c`
 #
@@ -356,7 +356,7 @@ julien@ubuntu:~/0x0b. more malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_malloc_free`
 - File: `100-realloc.c`
 #
@@ -380,7 +380,7 @@ julien@ubuntu:~/0x0b. more malloc, free$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_malloc_free`
 - File: `101-mul.c`
 #

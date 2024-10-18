@@ -92,7 +92,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `0-print_listint.c`
 #
@@ -140,7 +140,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `1-listint_len.c`
 #
@@ -190,7 +190,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `2-add_nodeint.c`
 #
@@ -240,7 +240,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `3-add_nodeint_end.c`
 #
@@ -305,7 +305,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `4-free_listint.c`
 #
@@ -372,7 +372,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `5-free_listint2.c`
 #
@@ -461,7 +461,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `6-pop_listint.c`
 #
@@ -526,7 +526,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `7-get_nodeint.c`
 #
@@ -572,7 +572,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `8-sum_listint.c`
 #
@@ -638,7 +638,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `9-insert_nodeint.c`
 #
@@ -790,7 +790,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `10-delete_nodeint.c`
 #
@@ -869,7 +869,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `100-reverse_listint.c`
 #
@@ -944,7 +944,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `101-print_listint_safe.c`
 #
@@ -1022,7 +1022,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `102-free_listint_safe.c`
 #
@@ -1114,7 +1114,7 @@ julien@ubuntu:~/More singly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `more_singly_linked_lists`
 - File: `103-find_loop.c`
 #

@@ -93,7 +93,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `0-print_dlistint.c`
 #
@@ -143,7 +143,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `1-dlistint_len.c`
 #
@@ -193,7 +193,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `2-add_dnodeint.c`
 #
@@ -243,7 +243,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `3-add_dnodeint_end.c`
 #
@@ -308,7 +308,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `4-free_dlistint.c`
 #
@@ -365,7 +365,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `5-get_dnodeint.c`
 #
@@ -412,7 +412,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `6-sum_dlistint.c`
 #
@@ -481,7 +481,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `7-insert_dnodeint.c`, `2-add_dnodeint.c`, `3-add_dnodeint_end.c`
 #
@@ -619,7 +619,7 @@ julien@ubuntu:~/Doubly linked lists$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `8-delete_dnodeint.c`
 #
@@ -631,7 +631,7 @@ Find the password for [crackme4](https://github.com/hs-hq/0x17.c).
 - Hint: The program prints “OK” when the password is correct
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `100-password`
 #
@@ -643,7 +643,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 - Your file should contain the exact result, no new line, no extra space
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `102-result`
 #
@@ -663,7 +663,7 @@ julien@ubuntu:~/$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `doubly_linked_lists`
 - File: `103-keygen.c`
 #

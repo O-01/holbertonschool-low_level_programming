@@ -58,7 +58,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `0-puts_recursion.c`
 #
@@ -86,7 +86,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `1-print_rev_recursion.c`
 #
@@ -120,7 +120,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `2-strlen_recursion.c`
 #
@@ -163,7 +163,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `3-factorial.c`
 #
@@ -213,7 +213,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `4-pow_recursion.c`
 #
@@ -263,7 +263,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `5-sqrt_recursion.c`
 #
@@ -316,7 +316,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `6-is_prime_number.c`
 #
@@ -359,7 +359,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `100-is_palindrome.c`
 #
@@ -426,7 +426,7 @@ julien@ubuntu:~/Recursion$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `recursion`
 - File: `101-wildcmp.c`
 #

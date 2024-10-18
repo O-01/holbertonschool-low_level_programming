@@ -95,7 +95,7 @@ julien@ubuntu:~/0x0e. Function pointers$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `function_pointers`
 - File: `0-print_name.c`
 #
@@ -160,7 +160,7 @@ julien@ubuntu:~//0x0e. Function pointers$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `function_pointers`
 - File: `1-array_iterator.c`
 #
@@ -238,7 +238,7 @@ julien@ubuntu:~/0x0e. Function pointers$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `function_pointers`
 - File: `2-int_index.c`
 #
@@ -334,7 +334,7 @@ julien@ubuntu:~/0x0e. Function pointers$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `function_pointers`
 - File: `3-main.c`, `3-op_functions.c`, `3-get_op_func.c`, `3-calc.h`
 #
@@ -383,7 +383,7 @@ julien@ubuntu:~/0x0e. Function pointers$
 - *Note 1: depending on how you write your `main` function, and on which machine you compile your program, the opcodes (and by extension the assembly code) might be different than the above example*
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `function_pointers`
 - File: `100-main_opcodes.c`
 #

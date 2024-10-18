@@ -71,7 +71,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `0-binary_to_uint.c`
 #
@@ -117,7 +117,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `1-print_binary.c`
 #
@@ -157,7 +157,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `2-get_bit.c`
 #
@@ -200,7 +200,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `3-set_bit.c`
 #
@@ -243,7 +243,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `4-clear_bit.c`
 #
@@ -285,7 +285,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `5-flip_bits.c`
 #
@@ -332,7 +332,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `100-get_endianness.c`
 #
@@ -347,7 +347,7 @@ julien@ubuntu:~/Binary$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `bit_manipulation`
 - File: `101-password`
 #

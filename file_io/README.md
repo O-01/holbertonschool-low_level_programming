@@ -147,7 +147,7 @@ julien@ubuntu:~/File descriptors and permissions$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `file_io`
 - File: `0-read_textfile.c`
 #
@@ -194,7 +194,7 @@ worldjulien@ubuntu:~/File descriptors and permis$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `file_io`
 - File: `1-create_file.c`
 #
@@ -243,7 +243,7 @@ julien@ubuntu:~/File descriptors and permissions$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `file_io`
 - File: `2-append_text_to_file.c`
 #
@@ -280,7 +280,7 @@ julien@ubuntu:~/File descriptors and permissions$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `file_io`
 - File: `3-cp.c`
 #
@@ -419,7 +419,7 @@ julien@ubuntu:~/File descriptors and permissions$
 ```
 #
 #### Repo:
-- GitHub repository: `atlas-low_level_programming`
+- GitHub repository: `holbertonschool-low_level_programming`
 - Directory: `file_io`
 - File: `100-elf_header.c`
 #
